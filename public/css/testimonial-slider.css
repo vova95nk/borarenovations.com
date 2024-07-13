@@ -1,0 +1,123 @@
+#feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+#feedback h3 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+#feedback__buttons {
+    padding-top: 10px;
+}
+
+#feedback__buttons button {
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 10px;
+    transition: all ease-in-out 150ms;
+}
+
+#feedback__buttons button:hover {
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -4);
+}
+
+#feedback__buttons button:active {
+    background-color: black;
+    color: white;
+    box-shadow: none;
+}
+
+p {
+    color: #999999;
+    font-weight: 300;
+}
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#feedback__item {
+    text-align: center;
+}
+
+#feedback__item h3 {
+    font-size: 18px;
+    font-weight: 900 !important;
+    margin-bottom: 30px;
+}
+
+#feedback__item h3 a {
+    color: black;
+}
+
+.owl-2-style .owl-nav {
+    display: none;
+}
+
+.owl-2-style .owl-dots {
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+}
+
+.owl-2-style .owl-dots .owl-dot {
+    display: inline-block;
+}
+
+.owl-2-style .owl-dots .owl-dot span {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 0px;
+    background: #cccccc;
+    -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+    -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+    transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.owl-2-style .owl-dots .owl-dot.active span {
+    background: #007bff;
+}
+
+.owl-2-style .owl-dots .owl-dot:active, .owl-2-style .owl-dots .owl-dot:focus {
+    outline: none;
+}
+
+.rating-result {
+    width: 265px;
+    margin: 0 auto;
+}
+.rating-result span {
+    padding: 0;
+    font-size: 16px;
+    margin: 0 3px;
+    line-height: 1;
+    color: lightgrey;
+    text-shadow: 1px 1px #bbb;
+}
+.rating-result > span:before {
+    content: '★';
+}
+.rating-result > span.active {
+    color: rgb(152, 157, 162);
+    text-shadow: 1px 1px rgba(74, 85, 104, 0.51);
+}
