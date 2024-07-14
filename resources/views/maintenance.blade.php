@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="maintenance">
-    <img src="./black-logo.svg" alt="Company logo must be here =)">
+    <img src="./black-logo.svg" alt="Company logo must be here =)" width="360" height="250">
     <div class="line"></div>
     <h1>Maintenance</h1>
     <p>Our new website is currently in progress. Please accept our apologies for any inconvenience this may cause. You can contact us using the links below or fill out the contact form, and we will get back to you as soon as possible.
