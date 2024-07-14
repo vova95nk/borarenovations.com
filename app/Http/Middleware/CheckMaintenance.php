@@ -11,9 +11,9 @@ use Symfony\Component\HttpFoundation\Response;
 
 class CheckMaintenance
 {
-    private const string MAINTENANCE_URI = '/maintenance';
+    private const MAINTENANCE_URI = '/maintenance';
 
-    private const string ADMIN_KEY = '171322c2ab77320dc7321fc5cb3ebb23a913e30d';
+    private const ADMIN_KEY = '171322c2ab77320dc7321fc5cb3ebb23a913e30d';
 
     public function handle(Request $request, Closure $next): Response
     {
