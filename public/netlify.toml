@@ -1,6 +1,6 @@
 [build]
     command = "composer install"
-    publish = "/public"
+    publish = "/public/index.php"
     base = "/"
 
 [[redirects]]
