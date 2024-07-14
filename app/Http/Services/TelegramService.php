@@ -22,12 +22,13 @@ class TelegramService
         $url = 'https://api.telegram.org/bot' . $token . '/sendMessage';
         try {
             Log::info($this->prepareText($name, $email, $phone, $message));
-            $this->client->post($url, [
+            $resp = $this->client->post($url, [
                 'json' => [
                     'chat_id' => env('TELEGRAM_CHAT_ID'),
                     'text' => $this->prepareText($name, $email, $phone, $message),
                 ]
             ]);
+            Log::info($resp->getStatusCode());
         } catch (Exception $exception) {
             Log::error('Telegram API error: ' . $exception->getMessage());
         } catch (GuzzleException $exception) {
