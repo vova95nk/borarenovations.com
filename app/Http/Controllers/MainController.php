@@ -8,6 +8,7 @@ use App\Http\Requests\QuoteRequest;
 use App\Http\Services\FeedbackService;
 use App\Http\Services\TelegramService;
 use Illuminate\Http\JsonResponse;
+use Illuminate\Support\Facades\Log;
 use Illuminate\View\View;
 
 class MainController extends Controller

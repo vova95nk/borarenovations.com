@@ -11,7 +11,7 @@ Route::get('/', '\App\Http\Controllers\MainController@main')
     ->middleware(\App\Http\Middleware\CheckMaintenance::class);
 
 /** @uses \App\Http\Controllers\MainController::getQuote() */
-Route::get('/get-quote', '\App\Http\Controllers\MainController@getQuote')
+Route::post('/get-quote', '\App\Http\Controllers\MainController@getQuote')
     ->withoutMiddleware(\App\Http\Middleware\CheckMaintenance::class);
 
 /** @uses \App\Http\Controllers\MainController::part() */

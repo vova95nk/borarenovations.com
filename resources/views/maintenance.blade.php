@@ -43,7 +43,7 @@
     </div>
     <button id="quote_btn">Contact us</button>
 </div>
-<script src="js/maintenance.js"></script>
+<script src="js/quote-form.js"></script>
 <script src="js/bootstrap/bootstrap.min.js"></script>
 </body>
 </html>

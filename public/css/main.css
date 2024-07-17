@@ -1,19 +1,18 @@
 .main-view {
-    background-image: url('../kitch1.jpeg');
     width: 100%;
     height: 750px
 }
 
 .main-info {
     position: absolute;
-    top: 200px;
+    top: 15%;
     left: 50px;
     margin: 20px;
     width: 440px;
     height: 480px;
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 15px;
-    padding: 35px;
+    border-radius: 10px;
+    padding: 25px;
 }
 
 .main-info p {
@@ -22,8 +21,29 @@
     font-size: 40px;
 }
 
-.main-info button {
-    margin-top: 35px;
+#quote_block input {
+    height: 40px;
+}
+
+#quote_block input, #quote_block textarea {
+    border: 2px solid #3B454E;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    resize: none;
+    background-color: transparent;
+}
+
+#quote_form {
+    display: flex;
+    flex-direction: column;
+}
+
+#send_quote {
+    width: 30%;
+    margin-top: -15px;
+    background-color: #3B454E !important;
+    color: white;
 }
 
 .services-preview {

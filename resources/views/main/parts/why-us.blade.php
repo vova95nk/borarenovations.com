@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="item"> <span class="icon feature_box_col_two"><i class="fa-solid fa-spray-can-sparkles"></i></span>
+                <div class="item"> <span class="icon feature_box_col_two"><img src="./images/spray-gun.png"></span>
                     <h6>Professional equipment</h6>
                     <p>Doors and cabinet base will be sprayed (no brushes and rollers used)</p>
                 </div>

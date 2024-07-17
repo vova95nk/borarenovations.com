@@ -13,16 +13,14 @@ a, a:hover {
     text-decoration: none !important;
 }
 
-.main-bg {
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    filter: brightness(70%)
+.main-logo {
+    width: 200px;
+    height: 100px;
+    margin-left: 10%;
 }
 
 .site-navbar-wrap {
-    position: absolute;
+    position: fixed;
     z-index: 99;
     width: 100%;
     left: 0;
@@ -37,30 +35,15 @@ a, a:hover {
 }
 
 .site-navbar-top {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.9);
     border-bottom: 2px solid #3B454E;
-}
-
-.site-navbar {
-    margin-bottom: -20px;
-    width: 100%;
-}
-
-.site-navbar .site-logo {
-    font-weight: 200;
-    line-height: 0;
-    top: -7px;
-    position: relative;
-}
-
-.site-navbar .site-navigation .site-menu {
-    margin-bottom: 0;
 }
 
 .site-navbar .site-navigation .site-menu a {
     text-decoration: none !important;
     display: inline-block;
     font-weight: 500;
+    flex-wrap: nowrap;
 }
 
 .site-navbar .site-navigation .site-menu > li {
@@ -77,7 +60,7 @@ a, a:hover {
 }
 
 .site-navbar .site-navigation .site-menu > li > a:hover, a:active {
-    color: whitesmoke;
+    color: darkblue;
 }
 
 .site-navbar .site-navigation .site-menu > li:last-child {

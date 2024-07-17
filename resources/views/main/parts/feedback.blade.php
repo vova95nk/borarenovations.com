@@ -25,7 +25,7 @@
         <button>
             Write a feedback
         </button>
-        <button id="quote-btn">
+        <button id="quote-btn" href="#quote_form">
             Get a quote
         </button>
     </div>

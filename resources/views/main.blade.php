@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="./bora-fav.svg">
+    <link rel="icon" href="@if(env('APP_ENV') === 'prod')./public/@endif bora-fav.svg">
 
     <title> {{ $title }} </title>
 
@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="css/ut.css">
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/about-us.css">
-    <link rel="stylesheet" href="css/our-services.scss">
+    <link rel="stylesheet" href="scss/our-services.scss">
     <link rel="stylesheet" href="css/why-us.css">
     <link rel="stylesheet" href="css/user-checkboard.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -38,8 +38,8 @@
 @include('./main/home')
 @include('./footer/footer')
 @include('./modules/quote')
+<script src="js/quote-form.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/popper.min.js"></script>
 <script src="js/bootstrap/bootstrap.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.sticky.js"></script>

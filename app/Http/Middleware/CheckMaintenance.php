@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Http\Middleware;
 
+use Carbon\Carbon;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
@@ -13,11 +14,9 @@ class CheckMaintenance
 {
     private const MAINTENANCE_URI = '/maintenance';
 
-    private const ADMIN_KEY = '171322c2ab77320dc7321fc5cb3ebb23a913e30d';
-
     public function handle(Request $request, Closure $next): Response
     {
-        if ($request->get('admin') === self::ADMIN_KEY) {
+        if ($request->get('admin') === env('ADMIN_KEY', sha1(Carbon::now()->toDateTimeString()))) {
             return $next($request);
         }
 

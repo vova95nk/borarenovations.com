@@ -11,16 +11,27 @@ class QuoteRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'name' => 'required|string',
+            'first_name' => 'required|string',
+            'last_name' => 'required|string',
             'email' => 'required|string',
-            'phone' => 'required|string',
-            'message' => 'string',
+            'phone' => 'required',
+            'message' => 'required|string',
         ];
     }
 
     public function getName(): string
     {
-        return $this->get('name', self::EMPTY_VALUE);
+        return sprintf("%s %s", $this->getFirstName(), $this->getLastName());
+    }
+
+    protected function getFirstName(): string
+    {
+        return $this->get('first_name', self::EMPTY_VALUE);
+    }
+
+    protected function getLastName(): string
+    {
+        return $this->get('last_name', self::EMPTY_VALUE);
     }
 
     public function getEmail(): string
