@@ -30,9 +30,9 @@
             </a>
         </div>
         <div class="videoContainer">
-            <iframe class="mainVideo" src="https://www.youtube.com/embed/ftH6N1_1kGI?si=qjRluivl3CV5jisb" title="YouTube video player"
+            <iframe class="mainVideo" src="https://www.youtube.com/embed/HmzkrsXhO0U?si=23cwK2VaDzJZWOmn" title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <img class="dotsImg image-block" src="./images/about-us-bg2.svg">
+            <img class="dotsImg image-block" src="@if(env('APP_ENV') === 'prod')./public/@endif images/about-us-bg2.svg">
         </div>
     </div>
 </div>

@@ -1,3 +1,9 @@
+h1 {
+    margin: 30px 0 !important;
+    letter-spacing: 3px !important;
+    color: #3B454E !important;
+}
+
 .main-view {
     width: 100%;
     height: 750px
@@ -5,7 +11,7 @@
 
 .main-info {
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 50px;
     margin: 20px;
     width: 440px;
@@ -46,78 +52,11 @@
     color: white;
 }
 
-.services-preview {
-    display: flex;
-    flex-direction: column;
-}
-
-.services-preview h3 {
-    text-align: center;
-    margin: 20px;
-}
-
-.services-list {
-    display: flex;
-    flex-direction: column;
-}
-
-.services-list-block {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-bottom: 25px;
-}
-
-.service-item {
-    width: 250px;
-    min-width: 250px;
-    height: 300px;
-    border: 1px solid darkgrey;
-    border-radius: 10px;
-}
-
-.service-item:hover {
-    box-shadow: 2px 2px 10px rgba(59, 69, 78, 0.6);
-    font-weight: bold;
-}
-
-.service-logo {
+.google-map-container {
     width: 100%;
-    height: 75%;
-    background-size: cover;
-    border-radius: 10px;
-}
-
-.refinishing {
-    background-image: url("../images/services-preview/refinishing.JPG");
-}
-
-.redooring {
-    background-image: url("../images/services-preview/redooring.jpg");
-}
-
-.installation {
-    background-image: url("../images/services-preview/installation.jpg");
-}
-
-.custom-finishes {
-    background-image: url("../images/services-preview/custom-finishes.jpg");
-}
-
-.more-updates {
-    background-image: url("../images/services-preview/more-updates.jpg");
-}
-
-.service-name {
-    height: 25%;
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    justify-content: space-around;
-    letter-spacing: 2px;
 }
 
-.service-name h4 {
-    color: black;
+.google-map {
+    width: 100% !important;
 }

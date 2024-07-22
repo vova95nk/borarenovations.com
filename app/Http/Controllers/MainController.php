@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\FeedbackRequest;
 use App\Http\Requests\QuoteRequest;
 use App\Http\Services\FeedbackService;
 use App\Http\Services\TelegramService;
@@ -47,7 +48,18 @@ class MainController extends Controller
         /** @var TelegramService $service */
         $service = resolve(TelegramService::class);
 
-        $service->sendTelegram($request->getName(), $request->getPhone(), $request->getEmail(), $request->getMessage());
+        $service->sendQuote($request->getName(), $request->getPhone(), $request->getEmail(), $request->getMessage());
+
+        return new JsonResponse(null, 200);
+    }
+
+    public function sendFeedback(FeedbackRequest $request): JsonResponse
+    {
+        Log::error("test");
+        /** @var TelegramService $service */
+        $service = resolve(TelegramService::class);
+
+        $service->sendFeedback($request->getName(), $request->getMessage(), $request->getRating());
 
         return new JsonResponse(null, 200);
     }

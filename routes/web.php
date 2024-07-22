@@ -14,6 +14,10 @@ Route::get('/', '\App\Http\Controllers\MainController@main')
 Route::post('/get-quote', '\App\Http\Controllers\MainController@getQuote')
     ->withoutMiddleware(\App\Http\Middleware\CheckMaintenance::class);
 
+/** @uses \App\Http\Controllers\MainController::sendFeedback() */
+Route::post('/send-feedback', '\App\Http\Controllers\MainController@sendFeedback')
+    ->withoutMiddleware(\App\Http\Middleware\CheckMaintenance::class);
+
 /** @uses \App\Http\Controllers\MainController::part() */
 Route::get('/{part}', '\App\Http\Controllers\MainController@part')
     ->middleware(\App\Http\Middleware\CheckMaintenance::class);

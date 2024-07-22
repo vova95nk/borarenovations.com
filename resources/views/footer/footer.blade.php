@@ -1,7 +1,7 @@
 <div id="footer">
     <div id="footer__nav">
         <div id="footer__logo">
-            <img src="./images/bora-text-logo.svg" alt="Short logo">
+            <img src="@if(env('APP_ENV') === 'prod')./public/@endif images/bora-text-logo.svg" alt="Short logo">
         </div>
         <div id="footer__links">
             <a href="/">Home</a>
@@ -12,16 +12,16 @@
         </div>
         <div id="footer__social_icons">
             <a href="tel:+12323123213">
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone fa-lg"></i>
             </a>
             <a href="mailto:borarernovations@gmail.com">
-                <i class="fa-regular fa-envelope"></i>
+                <i class="fa-regular fa-envelope fa-lg"></i>
             </a>
             <a href="https://www.facebook.com/BoraRenovations">
-                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-facebook-f fa-lg"></i>
             </a>
             <a href="https://instagram.com/bora_renovations">
-                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-instagram fa-lg"></i>
             </a>
         </div>
     </div>

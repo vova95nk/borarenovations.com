@@ -116,6 +116,7 @@ h2 {
 }
 .rating-result > span:before {
     content: '★';
+    color: #e3e327;
 }
 .rating-result > span.active {
     color: rgb(152, 157, 162);

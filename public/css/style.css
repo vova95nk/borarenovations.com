@@ -20,7 +20,7 @@ a, a:hover {
 }
 
 .site-navbar-wrap {
-    position: fixed;
+    /*position: fixed;*/
     z-index: 99;
     width: 100%;
     left: 0;

@@ -2,39 +2,29 @@
     min-height: 75px;
     height: fit-content;
     width: 100%;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+    margin: 0 auto;
     justify-content: flex-start;
 }
 
 .text-blk {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    margin: 0;
+    padding: 10px;
     line-height: 25px;
+    margin-right: 30px !important;
+}
+
+.text-blk a {
+    color: rgb(0, 135, 177) !important;
 }
 
 .responsive-container-block.bigContainer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    padding-left: 50px;
+    padding: 10px 50px
 }
 
 .text-blk.headingText {
@@ -201,6 +191,7 @@
 
 .mainVideo {
     z-index: 10;
+    width: 150% !important;
 }
 
 .dotsImg {
