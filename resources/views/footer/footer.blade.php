@@ -1,7 +1,7 @@
 <div id="footer">
     <div id="footer__nav">
         <div id="footer__logo">
-            <img src="@if(env('APP_ENV') === 'prod')./public/@endif images/bora-text-logo.svg" alt="Short logo">
+            <img src="./public/images/bora-text-logo.svg" alt="Short logo">
         </div>
         <div id="footer__links">
             <a href="#">Home</a>

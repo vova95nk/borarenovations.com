@@ -1,5 +1,5 @@
 <div class="main-view"
-     style="background-image: @if(env('APP_ENV') === 'prod') url('./public/kitch1.jpeg') @endif @if (env('APP_ENV') !== 'prod')url('./kitch1.jpeg')@endif">
+     style="background-image: url('./public/kitch1.jpeg')">
     <div class="main-info">
         <div id="quote_block">
             <p>Get a quote</p>
