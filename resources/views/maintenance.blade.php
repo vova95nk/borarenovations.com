@@ -3,13 +3,13 @@
     <meta charset="UTF-8">
     <title>BoraRenovations</title>
 
-    <link rel="stylesheet" href="css/maintenance-page.css">
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="@if(env('APP_ENV') === 'prod')./public/@endif css/maintenance-page.css">
+    <link rel="stylesheet" href="@if(env('APP_ENV') === 'prod')./public/@endif css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 <div class="maintenance">
-    <img src="./black-logo.svg" alt="Company logo must be here =)" width="360" height="250">
+    <img src="@if(env('APP_ENV') === 'prod')./public/@endif black-logo.svg" alt="Company logo must be here =)" width="360" height="250">
     <div class="line"></div>
     <h1>Maintenance</h1>
     <p>Our new website is currently in progress. Please accept our apologies for any inconvenience this may cause. You can contact us using the links below or fill out the contact form, and we will get back to you as soon as possible.
@@ -32,10 +32,11 @@
     <div id="quote-block">
         <form action="/get-quote" method="post">
             @csrf
-            <input type="text" name="name" placeholder="First name" id="user_name">
+            <input type="text" name="name" placeholder="First name" id="user_first_name">
+            <input type="text" name="name" placeholder="Last name" id="user_last_name">
             <input type="text" name="phone" placeholder="Phone number" id="user_phone">
             <input type="email" name="email" placeholder="Email" id="user_email">
-            <textarea name="message" cols="30" rows="5" placeholder="Your message" id="user_message"></textarea>
+            <textarea name="message" cols="30" rows="4" placeholder="Your message" id="user_message"></textarea>
             <br>
             <input type="button" name="send_quote" id="send_quote" value="SEND">
             <input type="hidden" name="_token" value="{{ csrf_token() }}" id="csrf_token">
@@ -43,7 +44,7 @@
     </div>
     <button id="quote_btn">Contact us</button>
 </div>
-<script src="js/quote-form.js"></script>
-<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="@if(env('APP_ENV') === 'prod')./public/@endif js/quote-form.js"></script>
+<script src="@if(env('APP_ENV') === 'prod')./public/@endif js/bootstrap/bootstrap.min.js"></script>
 </body>
 </html>

@@ -4,11 +4,11 @@
             <img src="@if(env('APP_ENV') === 'prod')./public/@endif images/bora-text-logo.svg" alt="Short logo">
         </div>
         <div id="footer__links">
-            <a href="/">Home</a>
-            <a href="/about">About us</a>
-            <a href="/services">Our services</a>
-            <a href="/gallery">Gallery</a>
-            <a href="/contact">Contact us</a>
+            <a href="#">Home</a>
+            <a href="#about">About us</a>
+            <a href="#services">Our services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#">Contact us</a>
         </div>
         <div id="footer__social_icons">
             <a href="tel:+12323123213">
@@ -27,7 +27,7 @@
     </div>
     <div id="line"></div>
     <div id="footer__info">
-        <a href="/privacy">Privacy policy</a>
+        <a href="#privacy">Privacy policy</a>
         <p>2024 Bora Renovations LLC. All rights reserved.</p>
     </div>
 </div>
