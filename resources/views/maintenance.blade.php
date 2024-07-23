@@ -2,14 +2,13 @@
 <head>
     <meta charset="UTF-8">
     <title>BoraRenovations</title>
-
-    <link rel="stylesheet" href="./public/css/maintenance-page.css">
-    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ $prodPrefix }}css/maintenance-page.css">
+    <link rel="stylesheet" href="{{ $prodPrefix }}css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 <div class="maintenance">
-    <img src="./public/black-logo.svg" alt="Company logo must be here =)" width="360" height="250">
+    <img src="{{ $prodPrefix }}black-logo.svg" alt="Company logo must be here =)" width="360" height="250">
     <div class="line"></div>
     <h1>Maintenance</h1>
     <p>Our new website is currently in progress. Please accept our apologies for any inconvenience this may cause. You can contact us using the links below or fill out the contact form, and we will get back to you as soon as possible.
@@ -44,7 +43,7 @@
     </div>
     <button id="quote_btn">Contact us</button>
 </div>
-<script src="./public/js/quote-form.js"></script>
-<script src="./public/js/bootstrap/bootstrap.min.js"></script>
+<script src="{{ $prodPrefix }}js/quote-form.js"></script>
+<script src="{{ $prodPrefix }}js/bootstrap/bootstrap.min.js"></script>
 </body>
 </html>

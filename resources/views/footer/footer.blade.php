@@ -1,7 +1,7 @@
 <div id="footer">
     <div id="footer__nav">
         <div id="footer__logo">
-            <img src="./public/images/bora-text-logo.svg" alt="Short logo">
+            <img src="{{ $prodPrefix }}images/bora-text-logo.svg" alt="Short logo">
         </div>
         <div id="footer__links">
             <a href="#">Home</a>

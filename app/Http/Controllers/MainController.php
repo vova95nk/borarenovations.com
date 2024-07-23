@@ -22,7 +22,8 @@ class MainController extends Controller
         return view('main', [
             'title' => env('SITE_TITLE'),
             'active' => 'home',
-            'feedbacks' => $feedbackService->getFeedbacks()
+            'feedbacks' => $feedbackService->getFeedbacks(),
+            'prodPrefix' => env('APP_ENV') === 'prod' ? './public/' : './'
         ]);
     }
 
