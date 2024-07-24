@@ -15,7 +15,7 @@ h1 {
     left: 50px;
     margin: 20px;
     width: 440px;
-    height: 480px;
+    height: 440px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     padding: 25px;
@@ -25,6 +25,12 @@ h1 {
     color: #3B454E;
     font-weight: bold;
     font-size: 40px;
+}
+
+.username_inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #quote_block input {

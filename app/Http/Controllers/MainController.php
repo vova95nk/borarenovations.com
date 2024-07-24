@@ -27,6 +27,15 @@ class MainController extends Controller
         ]);
     }
 
+    public function gallery(): View
+    {
+        return view('gallery', [
+            'title' => env('SITE_TITLE'),
+            'active' => 'gallery',
+            'prodPrefix' => env('APP_ENV') === 'prod' ? './public/' : './'
+        ]);
+    }
+
     public function part(string $part): View
     {
         return view('main', [

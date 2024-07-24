@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="{{ $prodPrefix }}css/main.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/footer.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/ut.css">
-    <link rel="stylesheet" href="{{ $prodPrefix }}css/gallery.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/buttons.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/about-us.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/why-us.css">
@@ -37,9 +36,8 @@
 </head>
 <body>
 @include('./header/header')
-@include('./main/home')
+@include('./main/gallery')
 @include('./footer/footer')
-<script src="{{ $prodPrefix }}js/gallery.js"></script>
 <script src="{{ $prodPrefix }}js/services-preview.js"></script>
 <script src="{{ $prodPrefix }}js/quote-form.js"></script>
 <script src="{{ $prodPrefix }}js/jquery-3.3.1.min.js"></script>

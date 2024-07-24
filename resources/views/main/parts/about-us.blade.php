@@ -5,7 +5,7 @@
                 About us
             </p>
             <p class="text-blk subHeadingText">
-                We work to your bespoke
+                Bringing your cabinet ideas to life
             </p>
             <p class="text-blk description">
                 Bora Renovations is a professional

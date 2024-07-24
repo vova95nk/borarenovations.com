@@ -5,8 +5,10 @@
             <p>Get a quote</p>
             <form action="/get-quote" method="post" id="quote_form">
                 @csrf
-                <input type="text" name="name" placeholder="First name" id="user_first_name">
-                <input type="text" name="name" placeholder="Last name" id="user_last_name">
+                <div class="username_inputs">
+                    <input type="text" name="name" placeholder="First name" id="user_first_name">
+                    <input type="text" name="name" placeholder="Last name" id="user_last_name">
+                </div>
                 <input type="text" name="phone" placeholder="Phone number" id="user_phone">
                 <input type="email" name="email" placeholder="Email" id="user_email">
                 <textarea name="message" cols="30" rows="4" placeholder="Your message" id="user_message"></textarea>

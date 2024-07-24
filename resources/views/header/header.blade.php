@@ -42,8 +42,8 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li @if($active === 'gallery') class="active" @endif><a href="#gallery" class="nav-link">Gallery</a></li>
-                                    <li @if($active === 'contact') class="active" @endif><a href="#footer" class="nav-link">Contact Us</a></li>
+                                    <li><a href="/gallery" class="nav-link">Gallery</a></li>
+                                    <li><a href="#footer" class="nav-link">Contact Us</a></li>
                                 </ul>
                             </div>
                         </nav>

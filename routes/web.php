@@ -18,6 +18,10 @@ Route::post('/get-quote', '\App\Http\Controllers\MainController@getQuote')
 Route::post('/send-feedback', '\App\Http\Controllers\MainController@sendFeedback')
     ->withoutMiddleware(\App\Http\Middleware\CheckMaintenance::class);
 
+/** @uses \App\Http\Controllers\MainController::gallery() */
+Route::get('/gallery', '\App\Http\Controllers\MainController@gallery')
+    ->middleware(\App\Http\Middleware\CheckMaintenance::class);
+
 /** @uses \App\Http\Controllers\MainController::part() */
 Route::get('/{part}', '\App\Http\Controllers\MainController@part')
     ->middleware(\App\Http\Middleware\CheckMaintenance::class);

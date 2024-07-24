@@ -20,8 +20,12 @@
     background-color: rgb(0, 135, 177, 0.1);
 }
 
-.fa-check, .fa-check-double {
+.fa-check {
     color: green !important;
+}
+
+.fa-check-double {
+    color: darkred !important;
 }
 
 tbody td {
