@@ -9,7 +9,7 @@
 <div class="site-navbar-wrap">
     <div class="site-navbar-top">
         <div class="row align-items-center justify-content-between">
-            <img class="main-logo" src="{{ $prodPrefix }}black-logo.svg" alt="main-logo">
+            <img class="main-logo" src="{{ $prodPrefix }}white-logo.png" alt="main-logo">
             <div class="col-8 flex-column justify-content-between">
                 <div class="site-navbar site-navbar-target js-sticky-header">
                     <div class="container d-flex justify-content-end">

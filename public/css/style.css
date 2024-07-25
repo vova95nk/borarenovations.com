@@ -16,27 +16,19 @@ a, a:hover {
 .main-logo {
     width: 200px;
     height: 100px;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .site-navbar-wrap {
-    /*position: fixed;*/
     z-index: 99;
     width: 100%;
     left: 0;
 }
 
-.site-navbar-wrap a {
-    color: black;
-}
-
-.site-navbar-wrap .site-navbar-top {
-    font-size: 0.8rem;
-}
-
 .site-navbar-top {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-bottom: 2px solid #3B454E;
+    background-color: #3B454E;
+    border-bottom: 2px solid navajowhite;
+    font-size: 0.8rem;
 }
 
 .site-navbar .site-navigation .site-menu a {
@@ -53,7 +45,7 @@ a, a:hover {
 
 .site-navbar .site-navigation .site-menu > li > a {
     padding: 20px 10px;
-    color: #3B454E;
+    color: whitesmoke;
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
@@ -188,11 +180,6 @@ a, a:hover {
     top: 0;
 }
 
-.site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:active > a, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:focus > a {
-    background: #ebeef0;
-    color: #212529;
-}
-
 .site-navbar .site-navigation .site-menu .has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children:focus > a, .site-navbar .site-navigation .site-menu .has-children:active > a {
     color: darkblue;
 }
@@ -301,7 +288,6 @@ a, a:hover {
     padding: 10px 20px;
     display: block;
     position: relative;
-    color: #212529;
 }
 
 .site-mobile-menu .site-nav-wrap a.active, .site-mobile-menu .site-nav-wrap a:hover {
@@ -311,10 +297,6 @@ a, a:hover {
 .site-mobile-menu .site-nav-wrap li {
     position: relative;
     display: block;
-}
-
-.site-mobile-menu .site-nav-wrap li.active > a {
-    color: #3B454E;
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
