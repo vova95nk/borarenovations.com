@@ -27,6 +27,7 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     color: papayawhip;
+    text-shadow: rgba(0, 0, 0, 0.3) 2px 5px 10px;
 }
 
 .main-info {
