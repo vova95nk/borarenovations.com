@@ -1,5 +1,5 @@
-<div class="main-view"
-     style="background-image: url('{{ $prodPrefix }}kitch1.jpeg')">
+<div class="main-view">
+    <img src="{{ $prodPrefix }}kitch1.jpeg" alt="Main_picture">
     <div class="main-info">
         <div id="quote_block">
             <p>Get a quote</p>
@@ -18,6 +18,7 @@
             </form>
         </div>
     </div>
+    <p class="main_info_text">The only company </br>that knows how to make your old kitchen</br> a master piece...</p>
     {{--    <div class="main-info">--}}
     {{--        <p>--}}
     {{--            The only company that knows how to make your old kitchen a master piece...--}}
