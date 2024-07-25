@@ -41,6 +41,7 @@ class MainController extends Controller
         return view('main', [
             'title' => env('SITE_TITLE'),
             'active' => $part,
+            'prodPrefix' => env('APP_ENV') === 'prod' ? './public/' : './'
         ]);
     }
 
@@ -50,6 +51,7 @@ class MainController extends Controller
             'title' => env('SITE_TITLE'),
             'active' => 'services',
             'sub-active' => $serviceName,
+            'prodPrefix' => env('APP_ENV') === 'prod' ? './public/' : './'
         ]);
     }
 
@@ -76,6 +78,8 @@ class MainController extends Controller
 
     public function maintenance(): View
     {
-        return view('maintenance');
+        return view('maintenance', [
+            'prodPrefix' => env('APP_ENV') === 'prod' ? './public/' : './',
+        ]);
     }
 }
