@@ -1,7 +1,7 @@
 <div class="header">
     <img src="{{ $prodPrefix }}bg-test2.jpg" alt="Main_picture" class="main-bg">
     <div class="header-nav">
-        <img class="main-logo" src="{{ $prodPrefix }}black-logo.svg" alt="main-logo">
+        <img class="main-logo" src="{{ $prodPrefix }}sliced-black-logo.svg" alt="main-logo">
         <div class="site-navbar">
             <nav class="site-navigation">
                 <ul class="site-menu main-menu d-none d-lg-block">

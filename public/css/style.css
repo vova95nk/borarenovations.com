@@ -14,9 +14,9 @@ a, a:hover {
 }
 
 .main-logo {
-    width: 225px;
-    height: 125px;
-    margin-left: 5%;
+    width: 210px;
+    height: 85px;
+    margin: 15px 0 15px 5%;
 }
 
 .site-navbar-wrap {
