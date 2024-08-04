@@ -16,7 +16,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
-    border: 2px solid rgb(0, 135, 177, 0.9);
+    border: 2px solid #C4A484;
     width: 30%;
     height: auto;
     margin: 20px;
@@ -45,7 +45,7 @@
 }
 
 .service-item a {
-    color: rgb(0, 135, 177);
+    color: saddlebrown;
     font-size: 20px;
     text-align: right;
     margin: 0 15px 10px 0;
@@ -59,7 +59,7 @@
 .h2_line {
     height: 2px;
     width: 70%;
-    background-color: rgb(0, 135, 177, 0.8);
+    background-color: saddlebrown;
     margin: 0 0 10px 40px;
 }
 
