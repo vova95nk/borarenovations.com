@@ -26,13 +26,13 @@ h1 {
     text-transform: uppercase;
     font-size: 48px;
     font-weight: bold;
-    color: papayawhip;
+    color: #ebfbf4;
     text-shadow: rgba(0, 0, 0, 0.3) 2px 5px 10px;
 }
 
 .main-info {
     position: absolute;
-    top: 25%;
+    top: 30%;
     right: 50px;
     margin: 20px;
     width: 440px;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .main-info p {
-    color: antiquewhite;
+    color: #ebfbf4;
     font-weight: bold;
     font-size: 36px;
 }
@@ -73,7 +73,7 @@ h1 {
 #send_quote {
     width: 30%;
     margin-top: -15px;
-    background-color: papayawhip !important;
+    background-color: #ebfbf4 !important;
     color: #3B454E;
 }
 
