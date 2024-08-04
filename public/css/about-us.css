@@ -31,7 +31,7 @@
     font-size: 23px;
     font-weight: 700;
     line-height: 28px;
-    color: rgb(0, 135, 177);
+    color: #C4A484;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 10px;
@@ -91,7 +91,7 @@
     font-size: 18px;
     line-height: 28px;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 135, 177);
+    background-color: saddlebrown;
     border: none;
     cursor: pointer;
     box-shadow: rgba(244, 152, 146, 0.25) 0px 10px 20px;
@@ -115,8 +115,8 @@
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(0, 135, 177, 0.3);
-    color: rgb(0, 135, 177);
+    background-color: wheat;
+    color: saddlebrown;
 
     #explore__link {
         color: rgb(0, 135, 177, 0.3);

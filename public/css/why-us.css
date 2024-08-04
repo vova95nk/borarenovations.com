@@ -55,7 +55,7 @@ span, a, a:hover {
 .section-head h4 {
     position: relative;
     padding: 0;
-    color: rgb(0, 135, 177);
+    color: #C4A484;
     line-height: 1;
     letter-spacing: 0.3px;
     font-size: 34px;
@@ -69,7 +69,7 @@ span, a, a:hover {
     content: '';
     width: 60px;
     height: 3px;
-    background: rgb(0, 135, 177);
+    background: #C4A484;
     position: absolute;
     left: 0px;
     bottom: -10px;
@@ -110,7 +110,7 @@ p.service_text {
     content: '';
     width: 60px;
     height: 3px;
-    background: rgb(0, 135, 177);
+    background: #C4A484;
     position: absolute;
     left: 0px;
     bottom: -10px;
@@ -133,7 +133,7 @@ p.service_text {
 }
 
 .item:hover {
-    background: rgb(0, 135, 177);
+    background: #C4A484;
     box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);
     -webkit-transition: all .5s ease 0;
     transition: all .5s ease 0;
@@ -158,7 +158,7 @@ p.service_text {
 .item .icon {
     font-size: 40px;
     margin-bottom: 25px;
-    color: rgb(0, 135, 177);
+    color: black;
     width: 90px;
     height: 90px;
     line-height: 96px;
@@ -167,6 +167,11 @@ p.service_text {
 
 .item .feature_box_col_one {
     background: rgba(247, 198, 5, 0.20);
+}
+
+.feature_box_col_one img{
+    position: relative;
+    left: -4px;
 }
 
 .item .feature_box_col_two {

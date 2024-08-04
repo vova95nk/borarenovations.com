@@ -30,7 +30,7 @@
 }
 
 .user-check-board table tr:nth-of-type(odd) {
-    background-color: rgb(0, 135, 177, 0.1);
+    background-color: rgba(196, 164, 132, 0.2);
 }
 
 .fa-check {
