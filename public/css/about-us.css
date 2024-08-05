@@ -31,7 +31,7 @@
     font-size: 23px;
     font-weight: 700;
     line-height: 28px;
-    color: #C4A484;
+    color: slategrey;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 10px;
@@ -90,11 +90,10 @@
 .explore {
     font-size: 18px;
     line-height: 28px;
-    color: rgb(255, 255, 255);
-    background-color: saddlebrown;
+    color: darkslategray;
+    background-color: #d5f8e8;
     border: none;
     cursor: pointer;
-    box-shadow: rgba(244, 152, 146, 0.25) 0px 10px 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -103,20 +102,15 @@
     padding-right: 45px;
     padding-bottom: 9px;
     padding-left: 45px;
+    box-shadow: #9dbdaf 10px 10px 10px;
+    transition: box-shadow 300ms ease;
+
 }
 
 .explore:hover {
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: wheat;
-    color: saddlebrown;
+    box-shadow: none;
+    /*background-color: whitesmoke;*/
+    /*color: #aaf0d1;*/
 
     #explore__link {
         color: rgb(0, 135, 177, 0.3);
