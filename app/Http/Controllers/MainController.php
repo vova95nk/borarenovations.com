@@ -26,51 +26,51 @@ class MainController extends Controller
             'prodPrefix' => env('APP_ENV') === 'prod' ? './public/' : './',
             'services' => [
                 [
-                    'name' => 'Cabinet Re-Finishing',
+                    'name' => '1. Cabinet Re-Finishing',
                     'info' => 'Update your kitchen with our expert cabinet refinishing services, giving your existing cabinets a fresh and modern look without the need for a full replacement.'
                 ],
                 [
-                    'name' => 'Cabinet Re-Dooring',
+                    'name' => '2. Cabinet Re-Dooring',
                     'info' => 'Update the appearance of your kitchen by replacing old cabinet doors with new, stylish options, enhancing the overall aesthetic while keeping the existing cabinet layout.',
                 ],
                 [
-                    'name' => 'Cabinet Installation',
+                    'name' => '3. Cabinet Installation',
                     'info' => 'Transform your kitchen with our professional cabinet installation services, providing a perfect and functional fit for your new cabinetry.',
                 ],
                 [
-                    'name' => 'Custom Finishes',
+                    'name' => '4. Custom Finishes',
                     'info' => 'Achieve a unique and personalized look for your cabinets with our custom finish services, including cabinet antiquing, glazing, and more.',
                 ],
                 [
-                    'name' => 'Backsplash Installation',
+                    'name' => '5. Backsplash Installation',
                     'info' => 'Enhance your kitchen\'s design and protect your walls with our backsplash installation services, creating a beautiful and practical feature that adds both style and functionality to your workspace.',
                 ],
                 [
-                    'name' => 'Crown Molding Installation',
+                    'name' => '6. Crown Molding Installation',
                     'info' => "Add elegance and value to your kitchen with our professional crown molding installation, delivering a refined finish that enhances your kitchen's look.",
                 ],
                 [
-                    'name' => 'Accent Pieces Installation',
+                    'name' => '7. Accent Pieces Installation',
                     'info' => 'Elevate the look of your kitchen with our accent pieces installation, providing a stylish accent that adds a unique touch to your space.',
                 ],
                 [
-                    'name' => 'Soft-Closing Hinges Installation',
+                    'name' => '8. Soft-Closing Hinges Installation',
                     'info' => 'Upgrade your cabinets with our soft-closing hinges, providing a quiet and smooth closing mechanism that extends the life of your cabinetry.',
                 ],
                 [
-                    'name' => 'New Drawer Boxes Installation',
+                    'name' => '9. New Drawer Boxes Installation',
                     'info' => 'Replace worn or outdated drawer boxes with our durable new drawer boxes, designed for improved functionality and appearance, offering increased storage efficiency and a fresh look.',
                 ],
                 [
-                    'name' => 'Soft-Closing Drawer Glides Installation',
+                    'name' => '10. Soft-Closing Drawer Glides Installation',
                     'info' => 'Improve the functionality of your drawers with our soft-closing drawer glides, ensuring a gentle and silent closing action every time, adding convenience to your kitchen.',
                 ],
                 [
-                    'name' => 'New Hardware Installation',
+                    'name' => '11. New Hardware Installation',
                     'info' => 'Refresh your cabinets with our new hardware installation services. Our professional installation ensures a secure and lasting fit for the knobs and handles you choose.',
                 ],
                 [
-                    'name' => 'Wooden Hoods Installation',
+                    'name' => '12. Wooden Hoods Installation',
                     'info' => 'Revitalize your kitchen with our wooden hoods installation services, enhancing aesthetics and providing efficient ventilation above your stove.',
                 ]
             ]

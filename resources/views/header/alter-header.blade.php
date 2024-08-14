@@ -6,10 +6,10 @@
             <nav class="site-navigation">
                 <ul class="site-menu main-menu d-none d-lg-block">
                     <li @if($active === 'home') class="active" @endif>
-                        <a href="/" class="nav-link">Home</a>
+                        <a href="#" class="nav-link">Home</a>
                     </li>
                     <li @if($active === 'about') class="active" @endif>
-                        <a href="#" class="nav-link">About Us</a>
+                        <a href="#about" class="nav-link">About Us</a>
                     </li>
                     <li class="has-children @if($active === 'services') active @endif">
                         <a href="#services" class="nav-link">Our Services</a>

@@ -1,3 +1,4 @@
+<div id="about"></div>
 <div class="responsive-container-block bigContainer">
     <div class="responsive-container-block Container bottomContainer">
         <div class="allText bottomText">

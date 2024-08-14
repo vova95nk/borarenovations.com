@@ -7,7 +7,7 @@
             <a href="#">Home</a>
             <a href="#about">About us</a>
             <a href="#services">Our services</a>
-            <a href="#gallery">Gallery</a>
+            <a href="/gallery">Gallery</a>
             <a href="#">Contact us</a>
         </div>
         <div id="footer__social_icons">
