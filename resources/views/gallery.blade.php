@@ -7,6 +7,10 @@
 
     <title> {{ $title }} </title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 
@@ -21,9 +25,11 @@
 
     <!-- Style -->
     <link rel="stylesheet" href="{{ $prodPrefix }}css/style.css">
+    <link rel="stylesheet" href="{{ $prodPrefix }}css/header.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/main.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/footer.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/ut.css">
+    <link rel="stylesheet" href="{{ $prodPrefix }}css/gallery.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/buttons.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/about-us.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/why-us.css">
@@ -35,7 +41,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-@include('./header/header')
+@include('./header/alter-header')
 @include('./main/gallery')
 @include('./footer/footer')
 <script src="{{ $prodPrefix }}js/services-preview.js"></script>

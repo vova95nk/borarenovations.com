@@ -1,5 +1,3 @@
-<h1>Gallery</h1>
-
 <div class="gallery_1" unique-script-id="w-w-dm-id">
     <div class="responsive-container-block bigContainer">
         <div class="responsive-container-block Container">
