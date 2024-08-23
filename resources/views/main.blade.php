@@ -7,16 +7,7 @@
 
     <title> {{ $title }} </title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ $prodPrefix }}fonts/icomoon/style.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/owl.carousel.min.css">
 
@@ -29,7 +20,7 @@
     <link rel="stylesheet" href="{{ $prodPrefix }}css/main.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/footer.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/ut.css">
-    <link rel="stylesheet" href="{{ $prodPrefix }}css/gallery.css">
+    <link rel="stylesheet" href="{{ $prodPrefix }}css/gallery.scss">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/buttons.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/about-us.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/why-us.css">

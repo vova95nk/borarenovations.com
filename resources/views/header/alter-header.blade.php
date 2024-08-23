@@ -1,12 +1,12 @@
 <div class="header">
-    <img src="{{ $prodPrefix }}bg-test2.jpg" alt="Main_picture" class="main-bg">
+    <img src="{{ $prodPrefix }}images/main-bg-1.jpg" alt="Main_picture" class="main-bg">
     <div class="header-nav">
         <img class="main-logo" src="{{ $prodPrefix }}text-logo-2.svg" alt="main-logo">
         <div class="site-navbar">
             <nav class="site-navigation">
                 <ul class="site-menu main-menu d-none d-lg-block">
                     <li @if($active === 'home') class="active" @endif>
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="/" class="nav-link">Home</a>
                     </li>
                     <li @if($active === 'about') class="active" @endif>
                         <a href="#about" class="nav-link">About Us</a>

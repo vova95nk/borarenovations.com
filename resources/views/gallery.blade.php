@@ -7,6 +7,7 @@
 
     <title> {{ $title }} </title>
 
+    <link href="https://fonts.cdnfonts.com/css/noto-sans-new-tai-lue" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
@@ -44,12 +45,14 @@
 @include('./header/alter-header')
 @include('./main/gallery')
 @include('./footer/footer')
-<script src="{{ $prodPrefix }}js/services-preview.js"></script>
 <script src="{{ $prodPrefix }}js/quote-form.js"></script>
 <script src="{{ $prodPrefix }}js/jquery-3.3.1.min.js"></script>
 <script src="{{ $prodPrefix }}js/bootstrap/bootstrap.min.js"></script>
 <script src="{{ $prodPrefix }}js/owl.carousel.min.js"></script>
 <script src="{{ $prodPrefix }}js/jquery.sticky.js"></script>
+<script src="https://atuin.ru/demo/draggable-jquery-ui.min.js"></script>
+<script src="https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js"></script>
 <script src="{{ $prodPrefix }}js/main.js"></script>
+<script src="{{ $prodPrefix }}js/gallery.js"></script>
 </body>
 </html>

@@ -26,7 +26,8 @@ h1 {
     text-transform: uppercase;
     font-size: 48px;
     font-weight: bold;
-    color: #ebfbf4;
+    /*color: #ebfbf4;*/
+    color: #F5F5F3;
     text-shadow: rgba(0, 0, 0, 0.3) 2px 5px 10px;
 }
 
@@ -42,7 +43,8 @@ h1 {
 }
 
 .main-info p {
-    color: #ebfbf4;
+    /*color: #ebfbf4;*/
+    color: #F5F5F3;
     font-weight: bold;
     font-size: 36px;
 }
@@ -73,7 +75,8 @@ h1 {
 #send_quote {
     width: 30%;
     margin-top: -15px;
-    background-color: #ebfbf4 !important;
+    /*background-color: #ebfbf4 !important;*/
+    background-color: #F5F5F3;
     color: #3B454E;
 }
 

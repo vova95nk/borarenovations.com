@@ -73,6 +73,38 @@ class MainController extends Controller
                     'name' => '12. Wooden Hoods Installation',
                     'info' => 'Revitalize your kitchen with our wooden hoods installation services, enhancing aesthetics and providing efficient ventilation above your stove.',
                 ]
+            ],
+            'alterServices' => [
+                [
+                    'name' => 'Cabinet Re-Finishing',
+                    'info' => 'Update your kitchen with our expert cabinet refinishing services, giving your existing cabinets a fresh and modern look without the need for a full replacement.',
+                    'num' => 1,
+                ],
+                [
+                    'name' => 'Cabinet Re-Dooring',
+                    'info' => 'Update the appearance of your kitchen by replacing old cabinet doors with new, stylish options, enhancing the overall aesthetic while keeping the existing cabinet layout.',
+                    'num' => 2,
+                ],
+                [
+                    'name' => 'Cabinet Installation',
+                    'info' => 'Transform your kitchen with our professional cabinet installation services, providing a perfect and functional fit for your new cabinetry.',
+                    'num' => 3,
+                ],
+                [
+                    'name' => 'Custom Finishes',
+                    'info' => 'Achieve a unique and personalized look for your cabinets with our custom finish services, including cabinet antiquing, glazing, and more.',
+                    'num' => 4,
+                ],
+                [
+                    'name' => 'Backsplash Installation',
+                    'info' => 'Enhance your kitchen\'s design and protect your walls with our backsplash installation services, creating a beautiful and practical feature that adds both style and functionality to your workspace.',
+                    'num' => 5,
+                ],
+                [
+                    'name' => 'Crown Molding Installation',
+                    'info' => "Add elegance and value to your kitchen with our professional crown molding installation, delivering a refined finish that enhances your kitchen's look.",
+                    'num' => 6,
+                ],
             ]
         ]);
     }
