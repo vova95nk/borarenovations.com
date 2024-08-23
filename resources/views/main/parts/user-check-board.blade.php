@@ -25,13 +25,13 @@
                         </tr>
                         <tr>
                             <th scope="row" style="color: #666666;">New Backsplash</th>
-                            <td><i class="fa-solid fa-check-double"></i></td>
+                            <td>⭐️</td>
                             <td><i class="fa-solid fa-check"></i></td>
                             <td><i class="fa-solid fa-check"></i></td>
                         </tr>
                         <tr>
                             <th scope="row" style="color: #666666;">New Countertops</th>
-                            <td><i class="fa-solid fa-check-double"></i></td>
+                            <td>⭐️</td>
                             <td><i class="fa-solid fa-check"></i></td>
                             <td><i class="fa-solid fa-check"></i></td>
                         </tr>
