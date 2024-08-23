@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="item"> <span class="icon feature_box_col_four"><i class="fa-regular fa-thumbs-up"></i></span>
+                <div class="item"> <span class="icon feature_box_col_four"><img src="{{ $prodPrefix }}images/about-us/thump-up.svg" width="45px" height="45px" style="margin: -10px 0 0 0"></span>
                     <h6>Top notch quality</h6>
                     <p>Factory-like smooth, durable, water, stains and heat resistant finish guaranteed</p>
                 </div>

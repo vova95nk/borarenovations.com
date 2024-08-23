@@ -21,6 +21,7 @@
     font-weight: normal;
     text-align: center;
     color: slategray;
+    width: 80%;
 }
 
 .user-check-board table td, table th {

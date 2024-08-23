@@ -3,8 +3,7 @@
         <h1>
             What's right for my kitchen?
         </h1>
-        <p>Discover the best options for your cabinets by exploring our refinishing, redooring, and installation services to perfectly suit your needs and style.</p>
-        <p>Learn more about how we can transform your cabinets into a masterpiece.</p>
+        <p>Discover the options available for your cabinet transformation. Compare the differences between installation, redooring, and refinishing, with ✔️ indicating the options available and ⭐️ indicating a necessity</p>
     </div>
     <div class="container">
         <div class="row justify-content-center">
@@ -13,12 +12,7 @@
                     <table class="table mb-0">
                         <tbody>
                         <tr>
-                            <th scope="col">
-                                <i class="fa-solid fa-check"></i>
-                                - an option
-                                <i class="fa-solid fa-check-double"></i>
-                                - necessity
-                            </th>
+                            <th scope="col"></th>
                             <th scope="col">Installation</th>
                             <th scope="col">Redooring</th>
                             <th scope="col">Refinishing</th>
