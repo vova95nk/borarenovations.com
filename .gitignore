@@ -1,1 +1,10 @@
+/node_modules
+/public/storage
+/vendor
+/.idea
 .env
+.DS_Store
+_ide_helper.php
+package-lock.json
+phpunit.dev.xml
+phpunit.xml
