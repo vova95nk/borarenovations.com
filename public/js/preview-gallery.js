@@ -31,10 +31,20 @@
     }
 })(jQuery);
 
-$('#lightSlider').lightSlider({
-    gallery: true,
-    item: 1,
-    loop:true,
-    slideMargin: 0,
-    thumbItem: 9
-});
+let switchImgButton = document.getElementById("switch_img_button")
+
+if (switchImgButton) {
+    switchImgButton.onclick = function () {
+        let imgBlock = document.getElementById("service_item_picture")
+        let afterImgPath = document.getElementById("after_img").textContent
+        let beforeImgPath = document.getElementById("before_img").textContent
+        let switchText = document.getElementById("switch_img_text")
+        if (imgBlock.style.backgroundImage === "url(\"" + afterImgPath + "\")") {
+            imgBlock.style.backgroundImage = "url(\"" + beforeImgPath + "\")"
+            switchText.textContent = "Switch to after"
+        } else {
+            imgBlock.style.backgroundImage = "url(\"" + afterImgPath + "\")"
+            switchText.textContent = "Switch to before"
+        }
+    }
+}

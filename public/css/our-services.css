@@ -18,14 +18,15 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 90%;
-    height: 300px;
+    height: 350px;
     margin-bottom: 20px;
 }
 .service_item_info_left, .service_item_info_right {
     padding: 20px;
 }
+
 .service_item_info_left, .service_item_info_right, .service_item_picture {
-    width: 45%;
+    width: 49%;
 }
 
 .service_item_info_left {
@@ -41,7 +42,7 @@
 }
 
 .service_item_picture img{
-    width: 95%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
 }

@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="{{ $prodPrefix }}css/main.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/footer.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/ut.css">
-    <link rel="stylesheet" href="{{ $prodPrefix }}css/gallery.scss">
+    <link rel="stylesheet" href="{{ $prodPrefix }}css/preview-gallery.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/buttons.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/about-us.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/why-us.css">
@@ -35,13 +35,14 @@
 @include('./header/alter-header')
 @include('./main/home')
 @include('./footer/footer')
-<script src="{{ $prodPrefix }}js/gallery.js"></script>
 <script src="{{ $prodPrefix }}js/services-preview.js"></script>
 <script src="{{ $prodPrefix }}js/quote-form.js"></script>
 <script src="{{ $prodPrefix }}js/jquery-3.3.1.min.js"></script>
 <script src="{{ $prodPrefix }}js/bootstrap/bootstrap.min.js"></script>
 <script src="{{ $prodPrefix }}js/owl.carousel.min.js"></script>
 <script src="{{ $prodPrefix }}js/jquery.sticky.js"></script>
+<script src="https://atuin.ru/demo/draggable-jquery-ui.min.js"></script>
+<script src="{{ $prodPrefix }}js/preview-gallery.js"></script>
 <script src="{{ $prodPrefix }}js/main.js"></script>
 </body>
 </html>

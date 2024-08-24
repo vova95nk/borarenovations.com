@@ -6,7 +6,7 @@
                 About us
             </p>
             <p class="text-blk subHeadingText">
-                Bringing your cabinet ideas to life
+                <span style="text-transform: uppercase; font-size: 28px">Bringing your cabinet ideas to life</span>
             </p>
             <p class="text-blk description">
                 Bora Renovations is a professional

@@ -29,25 +29,29 @@ class MainController extends Controller
                 [
                     'name' => 'Cabinet Re-Finishing',
                     'info' => 'Update your kitchen with our expert cabinet refinishing services, giving your existing cabinets a fresh and modern look without the need for a full replacement.',
-                    'img_path' => $pathPrefix . 'images/gallery/ba/1a.jpeg',
+                    'img_path_before' => $pathPrefix . 'images/gallery/ba/1b.jpeg',
+                    'img_path_after' => $pathPrefix . 'images/gallery/ba/1a.jpeg',
                     'num' => 'odd'
                 ],
                 [
                     'name' => 'Cabinet Re-Dooring',
                     'info' => 'Update the appearance of your kitchen by replacing old cabinet doors with new, stylish options, enhancing the overall aesthetic while keeping the existing cabinet layout.',
-                    'img_path' => $pathPrefix . 'images/gallery/re-dooring/1.jpeg',
+                    'img_path_before' => $pathPrefix . 'images/gallery/ba/1b.jpeg',
+                    'img_path_after' => $pathPrefix . 'images/gallery/ba/1a.jpeg',
                     'num' => 'even'
                 ],
                 [
                     'name' => 'Cabinet Installation',
                     'info' => 'Transform your kitchen with our professional cabinet installation services, providing a perfect and functional fit for your new cabinetry.',
-                    'img_path' => $pathPrefix . 'images/gallery/ba/2a.jpeg',
+                    'img_path_before' => $pathPrefix . 'images/gallery/ba/2b.jpeg',
+                    'img_path_after' => $pathPrefix . 'images/gallery/ba/2a.jpeg',
                     'num' => 'odd'
                 ],
                 [
                     'name' => 'More Updates',
                     'info' => 'Enhance the beauty, modernity, and functionality of your kitchen with our comprehensive services, including backsplash installation, crown molding, new hinges, hardware installation, and more.',
-                    'img_path' => $pathPrefix . 'images/gallery/ba/3a.jpeg',
+                    'img_path_before' => $pathPrefix . 'images/gallery/ba/3b.jpeg',
+                    'img_path_after' => $pathPrefix . 'images/gallery/ba/3a.jpeg',
                     'num' => 'even'
                 ],
             ],
