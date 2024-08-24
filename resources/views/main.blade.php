@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-@include('./header/alter-header')
+@include('./header/header')
 @include('./main/home')
 @include('./footer/footer')
 <script src="{{ $prodPrefix }}js/services-preview.js"></script>

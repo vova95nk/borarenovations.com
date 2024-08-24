@@ -31,7 +31,7 @@
     font-size: 23px;
     font-weight: 700;
     line-height: 28px;
-    color: slategrey;
+    color: #D2B48C;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 10px;
@@ -90,8 +90,8 @@
 .explore {
     font-size: 18px;
     line-height: 28px;
-    color: darkslategray;
-    background-color: #d5f8e8;
+    color: black;
+    background-color: #FFF8DC;
     border: none;
     cursor: pointer;
     border-top-left-radius: 10px;
@@ -102,7 +102,7 @@
     padding-right: 45px;
     padding-bottom: 9px;
     padding-left: 45px;
-    box-shadow: #9dbdaf 10px 10px 10px;
+    box-shadow: blanchedalmond 10px 10px 10px;
     transition: box-shadow 300ms ease;
 
 }

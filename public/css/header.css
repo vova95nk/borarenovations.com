@@ -17,7 +17,6 @@
     position: absolute;
     top: 20px;
     width: 100%;
-    /*background-color: rgba(235, 251, 244, 0.9);*/
     background-color: #F5F5F3;
 }
 
@@ -25,8 +24,7 @@
     margin: auto 70px;
 }
 
-.main_info_text {
-    font-family: "Varela", sans-serif;
-    /*font-weight: 400;*/
-    font-style: normal;
-}
+/*.main_info_text {*/
+/*    font-family: "Varela", sans-serif;*/
+/*    font-style: normal;*/
+/*}*/

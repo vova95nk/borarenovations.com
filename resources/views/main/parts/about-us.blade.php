@@ -33,7 +33,7 @@
         <div class="videoContainer">
             <iframe class="mainVideo" src="https://www.youtube.com/embed/HmzkrsXhO0U?si=23cwK2VaDzJZWOmn" title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <img class="dotsImg image-block" src="{{ $prodPrefix }}images/about-us/mint-dots.svg">
+            <img class="dotsImg image-block" src="{{ $prodPrefix }}images/bg/dots-light-brown.svg">
         </div>
     </div>
 </div>
