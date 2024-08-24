@@ -1,3 +1,6 @@
+<div id="go_to_quote">
+    <a href="#"><i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i> Get a quote</a>
+</div>
 <div id="footer">
     <div id="footer__nav">
         <div id="footer__logo">

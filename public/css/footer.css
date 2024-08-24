@@ -1,3 +1,23 @@
+#go_to_quote {
+    position: fixed;
+    bottom: 100px;
+    right: -500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    z-index: 100;
+    transition: right 300ms ease;
+}
+
+#go_to_quote:hover {
+    right: 0px !important;
+}
+
+#go_to_quote a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: auto 0;
+}
+
 #footer {
     display: flex;
     flex-direction: column;
