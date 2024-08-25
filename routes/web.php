@@ -22,6 +22,9 @@ Route::post('/send-feedback', '\App\Http\Controllers\MainController@sendFeedback
 Route::get('/gallery', '\App\Http\Controllers\MainController@gallery')
     ->middleware(\App\Http\Middleware\CheckMaintenance::class);
 
+/** @uses \App\Http\Controllers\MainController::galleryList() */
+Route::get('/gallery/list', '\App\Http\Controllers\MainController@galleryList');
+
 /** @uses \App\Http\Controllers\MainController::part() */
 Route::get('/{part}', '\App\Http\Controllers\MainController@part')
     ->middleware(\App\Http\Middleware\CheckMaintenance::class);

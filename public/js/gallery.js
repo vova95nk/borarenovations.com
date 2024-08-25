@@ -1,40 +1,37 @@
-(function ($) {
-    let dragMe = document.getElementsByClassName("dragme")
+let refSwitcher = document.getElementById("refinishing_switcher")
+let picturesPath = ""
+let galleryConfig = []
 
-    for (let d = 0; d < dragMe.length; d++) {
-        let $dragMe = $(dragMe[d]),
-            $container = $(dragMe[d].parentElement[1]),
-            $viewAfter = $(dragMe[d].parentElement.children[0]);
+const xhr = new XMLHttpRequest();
+xhr.open('GET', '/gallery/list', false);
+xhr.setRequestHeader('Content-Type', 'application/json');
+xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+        galleryConfig = xhr.response
+    }
+};
+xhr.send();
 
-        $dragMe.draggable({
-            containment: "parent",
-            drag: function () {
-                $viewAfter.css({
-                    width: parseFloat($(this).css('left')) + 5
-                });
-            }
-        });
-        $container.on("click", function (event) {
-            var eventLeft = event.pageX - $container.offset().left - 15;
-            animateTo(eventLeft);
-        });
-        animateTo("30%");
-
-        function animateTo(_left) {
-            $dragMe.animate({
-                left: _left
-            }, 'slow', 'linear');
-            $viewAfter.animate({
-                width: _left
-            }, 'slow', 'linear');
+function objectToArray(obj) {
+    let array = [];
+    for (prop in obj) {
+        if (obj.hasOwnProperty(prop)) {
+            array.push(obj[prop]);
         }
     }
-})(jQuery);
 
-$('#lightSlider').lightSlider({
-    gallery: true,
-    item: 1,
-    loop:true,
-    slideMargin: 0,
-    thumbItem: 9
-});
+    return array;
+}
+
+let obj = JSON.parse(galleryConfig);
+galleryConfig = objectToArray(obj);
+
+let switcherFn = function () {
+    console.log(refSwitcher.parentElement.style.backgroundImage)
+    console.log(galleryConfig)
+
+}
+
+if (refSwitcher) {
+    refSwitcher.onclick = switcherFn
+}

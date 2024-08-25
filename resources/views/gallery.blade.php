@@ -42,16 +42,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-@include('./header/alter-header')
-@include('./main/gallery')
+@include('./header/header')
+@include('./gallery/main')
 @include('./footer/footer')
 <script src="{{ $prodPrefix }}js/quote-form.js"></script>
 <script src="{{ $prodPrefix }}js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js" integrity="sha512-sww7U197vVXpRSffZdqfpqDU2SNoFvINLX4mXt1D6ZecxkhwcHmLj3QcL2cJ/aCxrTkUcaAa6EGmPK3Nfitygw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="{{ $prodPrefix }}js/bootstrap/bootstrap.min.js"></script>
 <script src="{{ $prodPrefix }}js/owl.carousel.min.js"></script>
 <script src="{{ $prodPrefix }}js/jquery.sticky.js"></script>
-<script src="https://atuin.ru/demo/draggable-jquery-ui.min.js"></script>
-<script src="https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js"></script>
 <script src="{{ $prodPrefix }}js/main.js"></script>
 <script src="{{ $prodPrefix }}js/gallery.js"></script>
 </body>

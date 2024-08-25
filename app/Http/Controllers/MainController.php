@@ -60,11 +60,35 @@ class MainController extends Controller
 
     public function gallery(): View
     {
+        $pathPrefix = env('APP_ENV') === 'prod' ? './public/' : './';
+
         return view('gallery', [
             'title' => env('SITE_TITLE'),
             'active' => 'gallery',
-            'prodPrefix' => env('APP_ENV') === 'prod' ? './public/' : './'
+            'prodPrefix' => $pathPrefix,
+            'refinishingPath' => $pathPrefix . 'images/gallery/refinishing/',
+            'refinishingFirstImg' => $pathPrefix . 'images/gallery/refinishing/1a.jpeg',
         ]);
+    }
+
+    public function galleryList(): JsonResponse
+    {
+        $pathPrefix = env('APP_ENV') === 'prod' ? './public/' : './';
+
+        $config = [
+            'refinishing' => [
+                1 => [
+                    'after' => $pathPrefix . 'images/gallery/refinishing/1a.jpeg',
+                    'before' => $pathPrefix . 'images/gallery/refinishing/1b.jpeg',
+                ],
+                2 => [
+                    'after' => $pathPrefix . 'images/gallery/refinishing/2a.jpeg',
+                    'before' => $pathPrefix . 'images/gallery/refinishing/2b.jpeg',
+                ],
+            ],
+        ];
+
+        return JsonResponse::fromJsonString(json_encode($config));
     }
 
     public function part(string $part): View

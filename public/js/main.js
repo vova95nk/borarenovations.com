@@ -3,7 +3,6 @@ let pushUpButton = document.getElementById("go_to_quote")
 window.onscroll = function() {
     let posTop = window.scrollY;
 
-    console.log(posTop)
     if(posTop > 200) {
         pushUpButton.style.right = "-98px"
     } else {
