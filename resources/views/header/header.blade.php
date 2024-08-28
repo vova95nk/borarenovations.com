@@ -1,5 +1,5 @@
 <div class="header">
-    <img src="{{ $prodPrefix }}images/test-bg-3.jpeg" alt="Main_picture" class="main-bg">
+    <img src="{{ $prodPrefix }}images/test-bg-2.jpeg" alt="Main_picture" class="main-bg">
     <div class="header-nav">
         <img class="main-logo" src="{{ $prodPrefix }}images/logo/transparent-logo.svg" alt="main-logo">
         <div class="site-navbar">
