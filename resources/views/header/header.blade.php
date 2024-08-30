@@ -1,5 +1,25 @@
 <div class="header">
     <img src="{{ $prodPrefix }}images/test-bg-2.jpeg" alt="Main_picture" class="main-bg">
+    <div class="header_social">
+        <div class="header_social_phone">
+            <a href="tel:+13022441338">
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                (302) 244-1338
+            </a>
+        </div>
+        <div>
+            <i class="fa-solid fa-location-dot"></i>
+            Serving DE, PA, NJ & MD
+        </div>
+        <div class="header_socials">
+            <a href="https://www.facebook.com/BoraRenovations">
+                <i class="fa-brands fa-facebook-f fa-lg"></i>
+            </a>
+            <a href="https://instagram.com/bora_renovations">
+                <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+        </div>
+    </div>
     <div class="header-nav">
         <img class="main-logo" src="{{ $prodPrefix }}images/logo/transparent-logo.svg" alt="main-logo">
         <div class="site-navbar">
@@ -56,6 +76,9 @@
                 </form>
             </div>
         </div>
-        <p class="main_info_text">The only company </br>that knows how to make your old kitchen</br> a master piece...</p>
+        <div class="main_info_text">
+            <p class="main_info_small_text">Have an idea?</p>
+            <p class="main_info_big_text">We'll bring your dream cabinets to life without a full remodel</p>
+        </div>
     </div>
 </div>

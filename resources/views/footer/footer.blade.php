@@ -14,7 +14,7 @@
             <a href="#">Contact us</a>
         </div>
         <div id="footer__social_icons">
-            <a href="tel:+12323123213">
+            <a href="tel:+13022441338">
                 <i class="fa-solid fa-phone fa-lg"></i>
             </a>
             <a href="mailto:borarernovations@gmail.com">
