@@ -41,10 +41,10 @@ if (switchImgButton) {
         let switchText = document.getElementById("switch_img_text")
         if (imgBlock.style.backgroundImage === "url(\"" + afterImgPath + "\")") {
             imgBlock.style.backgroundImage = "url(\"" + beforeImgPath + "\")"
-            switchText.textContent = "Switch to after"
+            switchText.textContent = "After"
         } else {
             imgBlock.style.backgroundImage = "url(\"" + afterImgPath + "\")"
-            switchText.textContent = "Switch to before"
+            switchText.textContent = "Before"
         }
     }
 }

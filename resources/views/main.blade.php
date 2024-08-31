@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="{{ $prodPrefix }}css/main.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/footer.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/ut.css">
-    <link rel="stylesheet" href="{{ $prodPrefix }}css/preview-gallery.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/buttons.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/about-us.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/why-us.css">
@@ -41,7 +40,6 @@
 <script src="{{ $prodPrefix }}js/bootstrap/bootstrap.min.js"></script>
 <script src="{{ $prodPrefix }}js/owl.carousel.min.js"></script>
 <script src="{{ $prodPrefix }}js/jquery.sticky.js"></script>
-<script src="https://atuin.ru/demo/draggable-jquery-ui.min.js"></script>
 <script src="{{ $prodPrefix }}js/preview-gallery.js"></script>
 <script src="{{ $prodPrefix }}js/main.js"></script>
 </body>

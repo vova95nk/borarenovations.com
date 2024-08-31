@@ -25,33 +25,36 @@ class MainController extends Controller
             'active' => 'home',
             'feedbacks' => $feedbackService->getFeedbacks(),
             'prodPrefix' => $pathPrefix,
+            'aboutUsImgPath' => $pathPrefix . 'images/about-us/about-us.jpeg',
             'services' => [
                 [
                     'name' => 'Cabinet Re-Finishing',
-                    'info' => 'Update your kitchen with our expert cabinet refinishing services, giving your existing cabinets a fresh and modern look without the need for a full replacement.',
-                    'img_path_before' => $pathPrefix . 'images/gallery/ba/1b.jpeg',
-                    'img_path_after' => $pathPrefix . 'images/gallery/ba/1a.jpeg',
+                    'info' => 'Tired of your cabinet color but your doors are in good shape? We’ll make your cabinets look brand new by applying any color you desire, installing new hardware, soft-closing hinges, and more.',
+                    'type' => 'slider',
+                    'img_path_before' => $pathPrefix . 'images/services-preview/refinishing-before.jpeg',
+                    'img_path_after' => $pathPrefix . 'images/services-preview/refinishing-after.jpeg',
                     'num' => 'odd'
                 ],
                 [
                     'name' => 'Cabinet Re-Dooring',
-                    'info' => 'Update the appearance of your kitchen by replacing old cabinet doors with new, stylish options, enhancing the overall aesthetic while keeping the existing cabinet layout.',
-                    'img_path_before' => $pathPrefix . 'images/gallery/ba/1b.jpeg',
-                    'img_path_after' => $pathPrefix . 'images/gallery/ba/1a.jpeg',
+                    'info' => 'Are your doors falling apart, or do you want to completely change the look of your cabinets? We’ll install new doors, refinish everything in any color you choose, and make your kitchen look brand new.',
+                    'type' => 'slider',
+                    'img_path_before' => $pathPrefix . 'images/services-preview/redooring-before.jpeg',
+                    'img_path_after' => $pathPrefix . 'images/services-preview/redooring-after.jpeg',
                     'num' => 'even'
                 ],
                 [
-                    'name' => 'Cabinet Installation',
-                    'info' => 'Transform your kitchen with our professional cabinet installation services, providing a perfect and functional fit for your new cabinetry.',
-                    'img_path_before' => $pathPrefix . 'images/gallery/ba/2b.jpeg',
-                    'img_path_after' => $pathPrefix . 'images/gallery/ba/2a.jpeg',
+                    'name' => 'Custom Finishes',
+                    'info' => 'Looking for a unique and stylish look? Bora Renovations will transform your cabinets with our custom finishes, unique designs, and textured surfaces, providing a personalized and distinctive appearance.',
+                    'type' => 'photo',
+                    'img' => $pathPrefix . 'images/services-preview/custom-finishes.jpg',
                     'num' => 'odd'
                 ],
                 [
                     'name' => 'More Updates',
-                    'info' => 'Enhance the beauty, modernity, and functionality of your kitchen with our comprehensive services, including backsplash installation, crown molding, new hinges, hardware installation, and more.',
-                    'img_path_before' => $pathPrefix . 'images/gallery/ba/3b.jpeg',
-                    'img_path_after' => $pathPrefix . 'images/gallery/ba/3a.jpeg',
+                    'info' => 'From crown molding and wooden hoods to backsplashes, soft-closing hinges, drawer glides, new drawer boxes, cabinet organizers, new hardware, and cabinet installations— we cover it all!',
+                    'type' => 'photo',
+                    'img' => $pathPrefix . 'images/services-preview/more-updates.jpg',
                     'num' => 'even'
                 ],
             ],

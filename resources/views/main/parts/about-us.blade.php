@@ -6,33 +6,28 @@
                 About us
             </p>
             <p class="text-blk subHeadingText">
-                <span style="text-transform: uppercase; font-size: 28px">Bringing your cabinet ideas to life</span>
+                <span style="text-transform: uppercase; font-size: 28px">IF YOU CAN DREAM IT — WE CAN DO IT</span>
             </p>
             <p class="text-blk description">
-                Bora Renovations is a professional
-                licensed and insured family-owned and operated kitchen cabinet refinishing company located in
-                Wilmington, DE. Kitchen cabinet refinishing is the only service we offer. We invest the necessary time
-                in thorough prep, use high-quality factory-grade products, and deliver a factory-like, guaranteed
-                finish. We don't use rollers and brushes. The entire kitchen (the base, doors) we spray with a
-                professional HVLP sprayer which produces a surface that cannot be achieved by any other tool. We call
-                our
-                company “The best kitchen cabinet refinishing” based on the number of five-star reviews left by our
-                previous customers on &nbsp;<a rel="noreferrer" target="_blank"
-                                               href="https://www.google.com/search?q=bora+renovation&amp;oq=bora+&amp;aqs=chrome.1.69i59l2j35i19i39j69i60j69i61j69i60l3.3632j0j4&amp;sourceid=chrome&amp;ie=UTF-8#lrd=0x89c6e39f182ef821:0xa085e036b2fe82ef,1,,,">Google</a>&nbsp;
-                and &nbsp;<a rel="noreferrer" target="_blank"
-                             href="https://www.facebook.com/BoraRenovations">Facebook</a>. We feel confident in our
-                ability to meet all of your expectations and know that you will be more than satisfied when we complete
-                your job.
+            Bora Renovations is a local, family-owned business dedicated to bringing your dream kitchen to life without
+            the hassle and expense of a full cabinet replacement. With over 500 projects completed, we deliver
+            top-quality results that make your cabinets look brand new while improving the functionality of your kitchen
+            - all with the experience and care you deserve. </br>
+            Whether you’re seeking a fresh new color or a complete transformation, we’ll customize your cabinets to
+            elevate your kitchen from ordinary to extraordinary in just a few days. If you can dream it, we can make it
+            happen—without the need for a complete remodel.
+            Click the button below to review our previous projects.
             </p>
             <a href="/gallery" id="explore__link">
                 <button class="explore">
-                    View More
+                    View Gallery
                 </button>
             </a>
         </div>
         <div class="videoContainer">
-            <iframe class="mainVideo" src="https://www.youtube.com/embed/HmzkrsXhO0U?si=23cwK2VaDzJZWOmn" title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <span class="mainPhoto">
+                <img src="{{$aboutUsImgPath}}" alt="About-us picture">
+            </span>
             <img class="dotsImg image-block" src="{{ $prodPrefix }}images/bg/dots-light-brown.svg">
         </div>
     </div>
