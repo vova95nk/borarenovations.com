@@ -1,7 +1,7 @@
 <div class="services_preview">
-    <div class="services_header">
+    <div class="part_header">
         <h1>Our Services</h1>
-        <div class="services_header_line"></div>
+        <div class="part_header_line"></div>
     </div>
     <div class="services_items">
         @foreach($services as $service)

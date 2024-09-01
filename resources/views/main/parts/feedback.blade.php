@@ -1,5 +1,8 @@
 <div id="feedback">
-    <h3>What our customers say</h3>
+    <div class="part_header">
+        <h1>What our customers say</h1>
+        <div class="part_header_line"></div>
+    </div>
     <div class="site-section bg-left-half mb-5">
         <div class="container owl-2-style">
             <div class="owl-carousel owl-2">
@@ -10,9 +13,7 @@
                         <div class="rating-result">
                             @for($i = 0; $i < 5; $i++)
                                 @if($i < $feedback['rating'])
-                                    <span class="active"></span>
-                                @else
-                                    <span></span>
+                                    ⭐️
                                 @endif
                             @endfor
                         </div>
@@ -25,11 +26,6 @@
         <a href="#feedback-modal">
             <button id="write-feedback">
                 Write a feedback
-            </button>
-        </a>
-        <a href="#">
-            <button id="quote-btn">
-                Get a quote
             </button>
         </a>
     </div>

@@ -1,9 +1,10 @@
 <div class="user-check-board">
     <div class="user-test-title">
-        <h1>
-            What's right for my kitchen?
-        </h1>
-        <p>Discover the options available for your cabinet transformation. Compare the differences between installation, redooring, and refinishing, with ✔️ indicating the options available and ⭐️ indicating a necessity</p>
+        <div class="part_header">
+            <h1>What's right for my kitchen?</h1>
+            <div class="part_header_line"></div>
+        </div>
+        <p>Discover the options available for your cabinet transformation. Compare the differences between installation, redooring, and refinishing, </br> with ✔️ indicating the options available and ⭐️ indicating a necessity</p>
     </div>
     <div class="container">
         <div class="row justify-content-center">
@@ -18,68 +19,68 @@
                             <th scope="col">Refinishing</th>
                         </tr>
                         <tr>
-                            <th scope="row" style="color: #666666;">New Cabinet Color</th>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
+                            <th scope="row">New Cabinet Color</th>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
                         </tr>
                         <tr>
-                            <th scope="row" style="color: #666666;">New Backsplash</th>
+                            <th scope="row">New Backsplash</th>
                             <td>⭐️</td>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
+                            <td>✔️</td>
+                            <td>✔️</td>
                         </tr>
                         <tr>
-                            <th scope="row" style="color: #666666;">New Countertops</th>
+                            <th scope="row">New Countertops</th>
                             <td>⭐️</td>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
+                            <td>✔️</td>
+                            <td>✔️</td>
                         </tr>
                         <tr>
-                            <th scope="row" style="color: #666666;">New Crown Molding</th>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
+                            <th scope="row">New Crown Molding</th>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
                         </tr>
                         <tr>
-                            <th scope="row" style="color: #666666;">Soft-Closing Hinges</th>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
+                            <th scope="row">Soft-Closing Hinges</th>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
                         </tr>
                         <tr>
-                            <th scope="row" style="color: #666666;">Soft-Closing Drawer Slides</th>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
+                            <th scope="row">Soft-Closing Drawer Slides</th>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
                         </tr>
                         <tr>
-                            <th scope="row" style="color: #666666;">New Hardware</th>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
+                            <th scope="row">New Hardware</th>
+                            <td>✔️</td>
+                            <td>✔️</td>
+                            <td>✔️</td>
                         </tr>
                         <tr>
-                            <th scope="row" style="color: #666666;">Adding More Cabinets</th>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
+                            <th scope="row">Adding More Cabinets</th>
+                            <td>✔️</td>
+                            <td>✔️</td>
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row" style="color: #666666;">Side Panel Installation</th>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
+                            <th scope="row">Side Panel Installation</th>
+                            <td>✔️</td>
+                            <td>✔️</td>
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row" style="color: #666666;">New Door Style</th>
-                            <td><i class="fa-solid fa-check"></i></td>
-                            <td><i class="fa-solid fa-check"></i></td>
+                            <th scope="row">New Door Style</th>
+                            <td>✔️</td>
+                            <td>✔️</td>
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row" style="color: #666666;">New Cabinet Layout</th>
-                            <td><i class="fa-solid fa-check"></i></td>
+                            <th scope="row">New Cabinet Layout</th>
+                            <td>✔️</td>
                             <td></td>
                             <td></td>
                         </tr>

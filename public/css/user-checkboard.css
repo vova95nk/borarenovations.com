@@ -21,7 +21,7 @@
     font-weight: normal;
     text-align: center;
     color: slategray;
-    width: 80%;
+    width: 100%;
 }
 
 .user-check-board table td, table th {
@@ -57,5 +57,6 @@ tbody td {
 
 .user-check-board tr {
     text-align: center;
+    color: black;
 }
 

@@ -103,6 +103,10 @@ p.service_text {
     transition: all 0.5s ease 0s;
 }
 
+.item h6{
+    font-weight: bold;
+}
+
 .item:hover {
     background: rgba(255, 235, 205, 0.7);
     box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);

@@ -4,18 +4,6 @@
     text-align: center;
 }
 
-.services_header {
-    margin: 30px auto;
-    text-align: center;
-}
-
-.services_header_line {
-    height: 3px;
-    width: 100%;
-    background-color: #555D55;
-    border-radius: 2px;
-}
-
 .services_items {
     display: flex;
     flex-direction: column;

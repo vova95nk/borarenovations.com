@@ -1,0 +1,11 @@
+.part_header {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.part_header_line {
+    height: 3px;
+    width: 100%;
+    background-color: #D2B48C;
+    border-radius: 2px;
+}
