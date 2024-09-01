@@ -29,7 +29,7 @@
         </div>
     </div>
     <div id="line"></div>
-    <div id="footer__info">
+    <div id="footer__info" class="alter_bg_color">
         <a href="#privacy">Privacy policy</a>
         <p>2024 Bora Renovations LLC. All rights reserved.</p>
     </div>

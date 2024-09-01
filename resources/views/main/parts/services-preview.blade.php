@@ -1,4 +1,4 @@
-<div class="services_preview">
+<div class="services_preview alter_bg_color overall_padding">
     <div class="part_header">
         <h1>Our Services</h1>
         <div class="part_header_line"></div>

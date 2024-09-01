@@ -1,3 +1,17 @@
+body {
+    font-family: 'Quicksand', sans-serif !important;
+    min-width: 500px;
+    background-color: white;
+}
+
+.overall_padding {
+    padding: 0 50px;
+}
+
+.alter_bg_color {
+    background-color: rgba(211, 211, 211, 0.2) !important;
+}
+
 .part_header {
     margin: 30px auto;
     text-align: center;

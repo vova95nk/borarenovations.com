@@ -1,4 +1,4 @@
-<div class="feat bg-gray pt-5 pb-5">
+<div class="feat bg-gray pt-5 pb-5 alter_bg_color">
     <div class="container">
         <div class="row">
             <div class="section-head col-sm-12">
