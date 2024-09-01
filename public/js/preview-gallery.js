@@ -31,20 +31,24 @@
     }
 })(jQuery);
 
-let switchImgButton = document.getElementById("switch_img_button")
+let switchImgButtons = document.getElementsByClassName("switch_img")
 
-if (switchImgButton) {
-    switchImgButton.onclick = function () {
-        let imgBlock = document.getElementById("service_item_picture")
-        let afterImgPath = document.getElementById("after_img").textContent
-        let beforeImgPath = document.getElementById("before_img").textContent
-        let switchText = document.getElementById("switch_img_text")
-        if (imgBlock.style.backgroundImage === "url(\"" + afterImgPath + "\")") {
-            imgBlock.style.backgroundImage = "url(\"" + beforeImgPath + "\")"
-            switchText.textContent = "After"
-        } else {
-            imgBlock.style.backgroundImage = "url(\"" + afterImgPath + "\")"
-            switchText.textContent = "Before"
+if (switchImgButtons) {
+    for (let b = 0; b < switchImgButtons.length; b++) {
+        let item = switchImgButtons[b]
+        item.onclick = function () {
+            let imgBlock = item.parentNode.parentNode
+            let afterImgPath = imgBlock.children[0].textContent
+            let beforeImgPath = imgBlock.children[1].textContent
+            let switchText = imgBlock.children[2].children[0].children[1]
+
+            if (imgBlock.style.backgroundImage === "url(\"" + afterImgPath + "\")") {
+                imgBlock.style.backgroundImage = "url(\"" + beforeImgPath + "\")"
+                switchText.textContent = "After"
+            } else {
+                imgBlock.style.backgroundImage = "url(\"" + afterImgPath + "\")"
+                switchText.textContent = "Before"
+            }
         }
     }
 }
