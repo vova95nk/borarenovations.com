@@ -71,6 +71,7 @@ class MainController extends Controller
             'prodPrefix' => $pathPrefix,
             'refinishingPath' => $pathPrefix . 'images/gallery/refinishing/',
             'refinishingFirstImg' => $pathPrefix . 'images/gallery/refinishing/1a.jpeg',
+            'reDooringFirstImg' => $pathPrefix . 'images/gallery/re-dooring/1a.jpeg',
         ]);
     }
 
