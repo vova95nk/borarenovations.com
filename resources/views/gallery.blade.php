@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="{{ $prodPrefix }}css/bootstrap/bootstrap.min.css">
 
     <!-- Style -->
+    <link rel="stylesheet" href="{{ $prodPrefix }}css/overall.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/style.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/header.css">
     <link rel="stylesheet" href="{{ $prodPrefix }}css/main.css">
