@@ -44,4 +44,21 @@
             <div class="gallery_box_item_slider_shortcut"></div>
         </div>
     </div>
+    <div class="gallery_box_item">
+        <div class="gallery_box_item_info">
+            <div class="gallery_box_item_info_box">
+                <h1>Custom Finishes</h1>
+                <div class="gallery_box_line"></div>
+            </div>
+        </div>
+        <div class="gallery_box_item_slider">
+            <div class="gallery_box_item_slider_img" style="background-image: url({{$customFinishesFirstImg}})">
+                <div class="gallery_box_item_slider_img_changer" id="custom_finishes_switcher">
+                    <div class="slider_prev_button"><i class="fa-solid fa-arrow-left"></i></div>
+                    <div class="slider_next_button"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+            </div>
+            <div class="gallery_box_item_slider_shortcut"></div>
+        </div>
+    </div>
 </div>

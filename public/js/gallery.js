@@ -1,9 +1,8 @@
-const refinishingKey = "refinishing"
-const reDooringKey = "redooring"
 const afterKey = "after"
 const beforeKey = "before"
 let refinishingSwitcher = document.getElementById("refinishing_switcher")
 let redooringSwitcher = document.getElementById("redooring_switcher")
+let customFinishesSwitcher = document.getElementById("custom_finishes_switcher")
 let prodPathPrefix = "public/"
 let refinishingGalleryConfig = new Map([
     [0, new Map([[afterKey, "images/gallery/refinishing/1a.jpeg"], [beforeKey, "images/gallery/refinishing/1b.jpeg"]])],
@@ -33,6 +32,17 @@ let refinishingGalleryConfig = new Map([
 let reDooringGalleryConfig = new Map([
     [0, new Map([[afterKey, "images/gallery/re-dooring/1a.jpeg"], [beforeKey, "images/gallery/re-dooring/1b.jpeg"]])],
     [1, new Map([[afterKey, "images/gallery/re-dooring/2a.jpeg"], [beforeKey, "images/gallery/re-dooring/2b.jpeg"]])],
+    [2, new Map([[afterKey, "images/gallery/re-dooring/3a.jpeg"], [beforeKey, "images/gallery/re-dooring/3b.jpeg"]])],
+    [3, new Map([[afterKey, "images/gallery/re-dooring/4a.jpeg"], [beforeKey, "images/gallery/re-dooring/4b.jpeg"]])],
+    [4, new Map([[afterKey, "images/gallery/re-dooring/5a.jpeg"], [beforeKey, "images/gallery/re-dooring/5b.jpeg"]])],
+    [5, new Map([[afterKey, "images/gallery/re-dooring/6a.jpeg"], [beforeKey, "images/gallery/re-dooring/6b.jpeg"]])],
+    [6, new Map([[afterKey, "images/gallery/re-dooring/7a.jpeg"], [beforeKey, "images/gallery/re-dooring/7b.jpeg"]])],
+    [7, new Map([[afterKey, "images/gallery/re-dooring/8a.jpeg"], [beforeKey, "images/gallery/re-dooring/8b.jpeg"]])],
+    [8, new Map([[afterKey, "images/gallery/re-dooring/9a.jpeg"], [beforeKey, "images/gallery/re-dooring/9b.jpeg"]])],
+])
+let customFinishesGalleryConfig = new Map([
+    [0, new Map([[afterKey, "images/gallery/custom-finishes/1.jpeg"], [beforeKey, "images/gallery/custom-finishes/1.jpeg"]])],
+    [1, new Map([[afterKey, "images/gallery/custom-finishes/2.jpeg"], [beforeKey, "images/gallery/custom-finishes/1.jpeg"]])],
 ])
 
 let prevSwipeBtn = document.getElementsByClassName("slider_prev_button")
@@ -66,7 +76,6 @@ for (let s = 0; s < prevSwipeBtn.length; s++) {
                 pageNum--
             }
 
-            console.log(pageNum)
 
             let galleryPage = refinishingGalleryConfig.get(pageNum)
             let afterImg = isProduction ? "url(\"./" + prodPathPrefix + galleryPage.get(afterKey) +"\")" : "url(\"./" + galleryPage.get(afterKey) +"\")"
@@ -95,12 +104,37 @@ for (let s = 0; s < prevSwipeBtn.length; s++) {
                 pageNum--
             }
 
-            console.log(pageNum)
 
             let galleryPage = reDooringGalleryConfig.get(pageNum)
             let afterImg = isProduction ? "url(\"./" + prodPathPrefix + galleryPage.get(afterKey) +"\")" : "url(\"./" + galleryPage.get(afterKey) +"\")"
             picNow.style.backgroundImage = afterImg
             redooringSwitchText.textContent = "Before"
+        }
+
+        if (galleryPart === 'custom_finishes_switcher') {
+            let picNow = customFinishesSwitcher.parentElement
+            let pageNum = 120
+            for (let p = 0; p < customFinishesGalleryConfig.size; p++) {
+                let galleryPage = customFinishesGalleryConfig.get(p)
+                let afterImg = isProduction ? "url(\"./" + prodPathPrefix + galleryPage.get(afterKey) +"\")" : "url(\"./" + galleryPage.get(afterKey) +"\")"
+                let beforeImg = isProduction ? "url(\"./" + prodPathPrefix + galleryPage.get(beforeKey) +"\")" : "url(\"./" + galleryPage.get(beforeKey) +"\")"
+
+                if (afterImg === picNow.style.backgroundImage || beforeImg === picNow.style.backgroundImage) {
+                    pageNum = p
+
+                    break
+                }
+            }
+
+            if (pageNum === 0) {
+                pageNum = customFinishesGalleryConfig.size - 1
+            } else if (pageNum > 0) {
+                pageNum--
+            }
+
+            let galleryPage = customFinishesGalleryConfig.get(pageNum)
+            let afterImg = isProduction ? "url(\"./" + prodPathPrefix + galleryPage.get(afterKey) +"\")" : "url(\"./" + galleryPage.get(afterKey) +"\")"
+            picNow.style.backgroundImage = afterImg
         }
     }
 
@@ -128,7 +162,6 @@ for (let s = 0; s < prevSwipeBtn.length; s++) {
                 pageNum++
             }
 
-            console.log(pageNum)
 
             let galleryPage = refinishingGalleryConfig.get(pageNum)
             let afterImg = isProduction ? "url(\"./" + prodPathPrefix + galleryPage.get(afterKey) +"\")" : "url(\"./" + galleryPage.get(afterKey) +"\")"
@@ -157,12 +190,36 @@ for (let s = 0; s < prevSwipeBtn.length; s++) {
                 pageNum++
             }
 
-            console.log(pageNum)
-
             let galleryPage = reDooringGalleryConfig.get(pageNum)
             let afterImg = isProduction ? "url(\"./" + prodPathPrefix + galleryPage.get(afterKey) +"\")" : "url(\"./" + galleryPage.get(afterKey) +"\")"
             picNow.style.backgroundImage = afterImg
             redooringSwitchText.textContent = "Before"
+        }
+
+        if (galleryPart === 'custom_finishes_switcher') {
+            let picNow = customFinishesSwitcher.parentElement
+            let pageNum = 120
+            for (let p = 0; p < customFinishesGalleryConfig.size; p++) {
+                let galleryPage = customFinishesGalleryConfig.get(p)
+                let afterImg = isProduction ? "url(\"./" + prodPathPrefix + galleryPage.get(afterKey) +"\")" : "url(\"./" + galleryPage.get(afterKey) +"\")"
+                let beforeImg = isProduction ? "url(\"./" + prodPathPrefix + galleryPage.get(beforeKey) +"\")" : "url(\"./" + galleryPage.get(beforeKey) +"\")"
+
+                if (afterImg === picNow.style.backgroundImage || beforeImg === picNow.style.backgroundImage) {
+                    pageNum = p
+
+                    break
+                }
+            }
+
+            if (pageNum === customFinishesGalleryConfig.size - 1) {
+                pageNum = 0
+            } else if ((pageNum + 1) < customFinishesGalleryConfig.size) {
+                pageNum++
+            }
+
+            let galleryPage = customFinishesGalleryConfig.get(pageNum)
+            let afterImg = isProduction ? "url(\"./" + prodPathPrefix + galleryPage.get(afterKey) +"\")" : "url(\"./" + galleryPage.get(afterKey) +"\")"
+            picNow.style.backgroundImage = afterImg
         }
     }
 }
