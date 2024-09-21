@@ -40,10 +40,6 @@ span, a, a:hover {
     color: inherit;
 }
 
-.section-head {
-    margin-bottom: 60px;
-}
-
 .section-head h4 {
     position: relative;
     padding: 0;
@@ -97,7 +93,7 @@ p.service_text {
     box-shadow: 0 0px 25px rgba(0, 0, 0, 0.07);
     border-radius: 20px;
     border: 5px solid rgba(0, 0, 0, 0.07);
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     -webkit-transition: all .5s ease 0;
     transition: all .5s ease 0;
     transition: all 0.5s ease 0s;
@@ -108,7 +104,7 @@ p.service_text {
 }
 
 .item:hover {
-    background: rgba(255, 235, 205, 0.7);
+    background: rgba(85, 93, 85, 0.3);
     box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);
     -webkit-transition: all .5s ease 0;
     transition: all .5s ease 0;
@@ -146,27 +142,27 @@ p.service_text {
 }
 
 .item .feature_box_col_one {
-    background: rgba(255, 235, 205, 0.7);
+    background: rgba(85, 93, 85, 0.3);
 }
 
 .item .feature_box_col_two {
-    background: rgba(255, 235, 205, 0.7);
+    background: rgba(85, 93, 85, 0.3);
 }
 
 .item .feature_box_col_three {
-    background: rgba(255, 235, 205, 0.7);
+    background: rgba(85, 93, 85, 0.3);
 }
 
 .item .feature_box_col_four {
-    background: rgba(255, 235, 205, 0.7);
+    background: rgba(85, 93, 85, 0.3);
 }
 
 .item .feature_box_col_five {
-    background: rgba(255, 235, 205, 0.7);
+    background: rgba(85, 93, 85, 0.3);
 }
 
 .item .feature_box_col_six {
-    background: rgba(255, 235, 205, 0.7);
+    background: rgba(85, 93, 85, 0.3);
 }
 
 .item p {

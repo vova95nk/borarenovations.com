@@ -7,8 +7,7 @@
     width: 100%;
     opacity: 0.9;
     z-index: 0;
-    height: 900px !important;
-    margin-top: -100px;
+    height: 750px !important;
 }
 
 .header-nav {
@@ -35,10 +34,9 @@
     height: 30px;
     background-color: #F5F5F3;
     z-index: 10;
-    border-bottom: 1px solid dimgrey;
-    padding-right: 20px;
+    padding: 10px 70px 0 20px;
 }
 
-.header_socials {
-    margin-left: 10px;
+.header_social_phone {
+    margin-left: 20px;
 }

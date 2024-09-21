@@ -2,7 +2,10 @@
     <div class="container">
         <div class="row">
             <div class="section-head col-sm-12">
-                <h4><span>Why Choose</span> Us?</h4>
+                <div class="part_header" style="width: 330px">
+                    <h1>Why Choose Us?</h1>
+                    <div class="part_header_line"></div>
+                </div>
                 <p>Our team brings years of expertise to every cabinet project, ensuring your old cabinets are transformed to perfection.</p>
             </div>
             <div class="col-lg-4 col-sm-6">

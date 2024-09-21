@@ -1,6 +1,6 @@
 <div id="feedback">
     <div class="part_header">
-        <h1>What our customers say</h1>
+        <h1>What Our Customers Say</h1>
         <div class="part_header_line"></div>
     </div>
     <div class="site-section bg-left-half mb-5">

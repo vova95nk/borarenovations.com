@@ -1,22 +1,14 @@
 <div class="header">
     <img src="{{ $prodPrefix }}images/test-bg-2.jpeg" alt="Main_picture" class="main-bg">
     <div class="header_social">
-        <div class="header_social_phone">
-            <a href="tel:+13022441338">
-                <i class="fa-sharp fa-solid fa-phone"></i>
-                (302) 244-1338
-            </a>
-        </div>
         <div>
             <i class="fa-solid fa-location-dot"></i>
             Serving DE, PA, NJ & MD
         </div>
-        <div class="header_socials">
-            <a href="https://www.facebook.com/BoraRenovations">
-                <i class="fa-brands fa-facebook-f fa-lg"></i>
-            </a>
-            <a href="https://instagram.com/bora_renovations">
-                <i class="fa-brands fa-instagram fa-lg"></i>
+        <div class="header_social_phone">
+            <a href="tel:+13022441338">
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                (302) 244-1338
             </a>
         </div>
     </div>
