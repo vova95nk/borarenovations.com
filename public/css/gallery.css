@@ -1,3 +1,22 @@
+.gallery_header {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: nowrap;
+    padding: 20px 0 0 50px;
+    margin: 0 !important;
+}
+
+.gallery_header h1 {
+    margin-right: 10px;
+}
+
+.gallery_header p {
+    margin-top: auto;
+    height: 20px;
+}
+
 .gallery_box {
     display: flex;
     flex-direction: column;

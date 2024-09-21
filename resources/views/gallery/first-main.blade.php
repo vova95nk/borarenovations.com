@@ -1,8 +1,12 @@
-<div class="gallery_header">
-    <h1>Gallery</h1> <p> Before&After</p>
-</div>
 <div class="gallery_box">
     <div class="gallery_box_item">
+        <div class="gallery_box_item_info">
+            <div class="gallery_box_item_info_box">
+                <h1>Refinishing</h1>
+                <div class="gallery_box_line"></div>
+                <h2>Before&After</h2>
+            </div>
+        </div>
         <div class="gallery_box_item_slider">
             <div class="gallery_box_item_slider_img" style="background-image: url({{$refinishingFirstImg}})">
                 <div class="slider_switch_button" id="refinishing_switcher"><i class="fa-solid fa-repeat"></i> <span id="refinishing_switch_text">Before</span></div>
@@ -15,6 +19,13 @@
         </div>
     </div>
     <div class="gallery_box_item">
+        <div class="gallery_box_item_info">
+            <div class="gallery_box_item_info_box">
+                <h1>ReDooring</h1>
+                <div class="gallery_box_line"></div>
+                <h2>Before&After</h2>
+            </div>
+        </div>
         <div class="gallery_box_item_slider">
             <div class="gallery_box_item_slider_img" style="background-image: url({{$reDooringFirstImg}})">
                 <div class="slider_switch_button" id="redooring_switcher"><i class="fa-solid fa-repeat"></i> <span id="redooring_switch_text">Before</span></div>
