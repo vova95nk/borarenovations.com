@@ -2,52 +2,25 @@
     <h1>Gallery</h1> <p> Before&After</p>
 </div>
 <div class="gallery_box">
-    <div class="gallery_box_item">
-        <div class="gallery_box_item_slider">
-            <div class="gallery_box_item_slider_img" style="background-image: url({{$refinishingFirstImg}})">
+    @foreach($pictures as $item)
+        <div id="gallery_item">
+            <img src="{{ $item['after'] }}" alt="After pic example">
+            @if(isset($item['before']))
+                <img src="{{ $item['before'] }}" alt="Before pic example" style="display: none">
                 <div class="slider_switch_button" id="refinishing_switcher"><i class="fa-solid fa-repeat"></i> <span id="refinishing_switch_text">Before</span></div>
-                <div class="gallery_box_item_slider_img_changer">
-                    <div class="slider_prev_button"><i class="fa-solid fa-arrow-left"></i></div>
-                    <div class="slider_next_button"><i class="fa-solid fa-arrow-right"></i></div>
-                </div>
-            </div>
-            <div class="gallery_box_item_slider_shortcut"></div>
+            @endif
         </div>
-    </div>
-    <div class="gallery_box_item">
-        <div class="gallery_box_item_slider">
-            <div class="gallery_box_item_slider_img" style="background-image: url({{$reDooringFirstImg}})">
-                <div class="slider_switch_button" id="redooring_switcher"><i class="fa-solid fa-repeat"></i> <span id="redooring_switch_text">Before</span></div>
-                <div class="gallery_box_item_slider_img_changer">
-                    <div class="slider_prev_button"><i class="fa-solid fa-arrow-left"></i></div>
-                    <div class="slider_next_button"><i class="fa-solid fa-arrow-right"></i></div>
-                </div>
-                {{--                @foreach($refinishingPictures as $item)--}}
-                {{--                    <span style="display: none" id="after_img">{{$service['img_path_after']}}</span>--}}
-                {{--                    <span style="display: none" id="before_img">{{$service['img_path_before']}}</span>--}}
-                {{--                    <div class="switch_img" id="switch_img_button">--}}
-                {{--                        <p id="switch_img_text">Switch to before</p>--}}
-                {{--                    </div>--}}
-                {{--                @endforeach--}}
-            </div>
-            <div class="gallery_box_item_slider_shortcut"></div>
-        </div>
-    </div>
-    <div class="gallery_box_item">
-        <div class="gallery_box_item_info">
-            <div class="gallery_box_item_info_box">
-                <h1>Custom Finishes</h1>
-                <div class="gallery_box_line"></div>
-            </div>
-        </div>
-        <div class="gallery_box_item_slider">
-            <div class="gallery_box_item_slider_img" style="background-image: url({{$customFinishesFirstImg}})">
-                <div class="gallery_box_item_slider_img_changer" id="custom_finishes_switcher">
-                    <div class="slider_prev_button"><i class="fa-solid fa-arrow-left"></i></div>
-                    <div class="slider_next_button"><i class="fa-solid fa-arrow-right"></i></div>
-                </div>
-            </div>
-            <div class="gallery_box_item_slider_shortcut"></div>
-        </div>
-    </div>
+    @endforeach
+{{--    <div class="gallery_box_item">--}}
+{{--        <div class="gallery_box_item_slider">--}}
+{{--            <div class="gallery_box_item_slider_img" style="background-image: url({{$refinishingFirstImg}})">--}}
+{{--                <div class="slider_switch_button" id="refinishing_switcher"><i class="fa-solid fa-repeat"></i> <span id="refinishing_switch_text">Before</span></div>--}}
+{{--                <div class="gallery_box_item_slider_img_changer">--}}
+{{--                    <div class="slider_prev_button"><i class="fa-solid fa-arrow-left"></i></div>--}}
+{{--                    <div class="slider_next_button"><i class="fa-solid fa-arrow-right"></i></div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="gallery_box_item_slider_shortcut"></div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 </div>

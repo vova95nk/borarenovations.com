@@ -7,10 +7,12 @@ namespace App\Http\Controllers;
 use App\Http\Requests\FeedbackRequest;
 use App\Http\Requests\QuoteRequest;
 use App\Http\Services\FeedbackService;
+use App\Http\Services\GalleryService;
 use App\Http\Services\TelegramService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Log;
 use Illuminate\View\View;
+use PHPUnit\Framework\MockObject\Generator\ClassAlreadyExistsException;
 
 class MainController extends Controller
 {
@@ -63,16 +65,17 @@ class MainController extends Controller
 
     public function gallery(): View
     {
+        $service = new GalleryService();
+
+        $items = $service->getAll();
+
         $pathPrefix = env('APP_ENV') === 'prod' ? './public/' : './';
 
         return view('gallery', [
             'title' => env('SITE_TITLE'),
             'active' => 'gallery',
             'prodPrefix' => $pathPrefix,
-            'refinishingPath' => $pathPrefix . 'images/gallery/refinishing/',
-            'refinishingFirstImg' => $pathPrefix . 'images/gallery/refinishing/1a.jpeg',
-            'reDooringFirstImg' => $pathPrefix . 'images/gallery/re-dooring/1a.jpeg',
-            'customFinishesFirstImg' => $pathPrefix . 'images/gallery/custom-finishes/1.jpeg',
+            'pictures' => $items
         ]);
     }
 

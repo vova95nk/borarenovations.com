@@ -4,46 +4,6 @@ let refinishingSwitcher = document.getElementById("refinishing_switcher")
 let redooringSwitcher = document.getElementById("redooring_switcher")
 let customFinishesSwitcher = document.getElementById("custom_finishes_switcher")
 let prodPathPrefix = "public/"
-let refinishingGalleryConfig = new Map([
-    [0, new Map([[afterKey, "images/gallery/refinishing/1a.jpeg"], [beforeKey, "images/gallery/refinishing/1b.jpeg"]])],
-    [1, new Map([[afterKey, "images/gallery/refinishing/2a.jpeg"], [beforeKey, "images/gallery/refinishing/2b.jpeg"]])],
-    [2, new Map([[afterKey, "images/gallery/refinishing/3a.jpeg"], [beforeKey, "images/gallery/refinishing/3b.jpeg"]])],
-    [3, new Map([[afterKey, "images/gallery/refinishing/4a.jpeg"], [beforeKey, "images/gallery/refinishing/4b.jpeg"]])],
-    [4, new Map([[afterKey, "images/gallery/refinishing/5a.jpeg"], [beforeKey, "images/gallery/refinishing/5b.jpeg"]])],
-    [5, new Map([[afterKey, "images/gallery/refinishing/6a.jpeg"], [beforeKey, "images/gallery/refinishing/6b.jpeg"]])],
-    [6, new Map([[afterKey, "images/gallery/refinishing/7a.jpeg"], [beforeKey, "images/gallery/refinishing/7b.jpeg"]])],
-    [7, new Map([[afterKey, "images/gallery/refinishing/8a.jpeg"], [beforeKey, "images/gallery/refinishing/8b.jpeg"]])],
-    [8, new Map([[afterKey, "images/gallery/refinishing/9a.jpeg"], [beforeKey, "images/gallery/refinishing/9b.jpeg"]])],
-    [9, new Map([[afterKey, "images/gallery/refinishing/10a.jpeg"], [beforeKey, "images/gallery/refinishing/10b.jpeg"]])],
-    [10, new Map([[afterKey, "images/gallery/refinishing/11a.jpeg"], [beforeKey, "images/gallery/refinishing/11b.jpeg"]])],
-    [11, new Map([[afterKey, "images/gallery/refinishing/12a.jpeg"], [beforeKey, "images/gallery/refinishing/12b.jpeg"]])],
-    [12, new Map([[afterKey, "images/gallery/refinishing/13a.jpeg"], [beforeKey, "images/gallery/refinishing/13b.jpeg"]])],
-    [13, new Map([[afterKey, "images/gallery/refinishing/14a.jpeg"], [beforeKey, "images/gallery/refinishing/14b.jpeg"]])],
-    [14, new Map([[afterKey, "images/gallery/refinishing/15a.jpeg"], [beforeKey, "images/gallery/refinishing/15b.jpeg"]])],
-    [15, new Map([[afterKey, "images/gallery/refinishing/16a.jpeg"], [beforeKey, "images/gallery/refinishing/16b.jpeg"]])],
-    [16, new Map([[afterKey, "images/gallery/refinishing/17a.jpeg"], [beforeKey, "images/gallery/refinishing/17b.jpeg"]])],
-    [17, new Map([[afterKey, "images/gallery/refinishing/18a.jpeg"], [beforeKey, "images/gallery/refinishing/18b.jpeg"]])],
-    [18, new Map([[afterKey, "images/gallery/refinishing/19a.jpeg"], [beforeKey, "images/gallery/refinishing/19b.jpeg"]])],
-    [19, new Map([[afterKey, "images/gallery/refinishing/20a.jpeg"], [beforeKey, "images/gallery/refinishing/20b.jpeg"]])],
-    [20, new Map([[afterKey, "images/gallery/refinishing/21a.jpeg"], [beforeKey, "images/gallery/refinishing/21b.jpeg"]])],
-    [21, new Map([[afterKey, "images/gallery/refinishing/22a.jpeg"], [beforeKey, "images/gallery/refinishing/22b.jpeg"]])],
-    [22, new Map([[afterKey, "images/gallery/refinishing/23a.jpeg"], [beforeKey, "images/gallery/refinishing/23b.jpeg"]])],
-])
-let reDooringGalleryConfig = new Map([
-    [0, new Map([[afterKey, "images/gallery/re-dooring/1a.jpeg"], [beforeKey, "images/gallery/re-dooring/1b.jpeg"]])],
-    [1, new Map([[afterKey, "images/gallery/re-dooring/2a.jpeg"], [beforeKey, "images/gallery/re-dooring/2b.jpeg"]])],
-    [2, new Map([[afterKey, "images/gallery/re-dooring/3a.jpeg"], [beforeKey, "images/gallery/re-dooring/3b.jpeg"]])],
-    [3, new Map([[afterKey, "images/gallery/re-dooring/4a.jpeg"], [beforeKey, "images/gallery/re-dooring/4b.jpeg"]])],
-    [4, new Map([[afterKey, "images/gallery/re-dooring/5a.jpeg"], [beforeKey, "images/gallery/re-dooring/5b.jpeg"]])],
-    [5, new Map([[afterKey, "images/gallery/re-dooring/6a.jpeg"], [beforeKey, "images/gallery/re-dooring/6b.jpeg"]])],
-    [6, new Map([[afterKey, "images/gallery/re-dooring/7a.jpeg"], [beforeKey, "images/gallery/re-dooring/7b.jpeg"]])],
-    [7, new Map([[afterKey, "images/gallery/re-dooring/8a.jpeg"], [beforeKey, "images/gallery/re-dooring/8b.jpeg"]])],
-    [8, new Map([[afterKey, "images/gallery/re-dooring/9a.jpeg"], [beforeKey, "images/gallery/re-dooring/9b.jpeg"]])],
-])
-let customFinishesGalleryConfig = new Map([
-    [0, new Map([[afterKey, "images/gallery/custom-finishes/1.jpeg"], [beforeKey, "images/gallery/custom-finishes/1.jpeg"]])],
-    [1, new Map([[afterKey, "images/gallery/custom-finishes/2.jpeg"], [beforeKey, "images/gallery/custom-finishes/1.jpeg"]])],
-])
 
 let prevSwipeBtn = document.getElementsByClassName("slider_prev_button")
 let nextSwipeBtn = document.getElementsByClassName("slider_next_button")
