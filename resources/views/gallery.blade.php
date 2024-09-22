@@ -53,6 +53,6 @@
 <script src="{{ $prodPrefix }}js/owl.carousel.min.js"></script>
 <script src="{{ $prodPrefix }}js/jquery.sticky.js"></script>
 <script src="{{ $prodPrefix }}js/main.js"></script>
-<script src="{{ $prodPrefix }}js/gallery.js"></script>
+{{--<script src="{{ $prodPrefix }}js/gallery.js"></script>--}}
 </body>
 </html>
