@@ -45,7 +45,7 @@
 <body>
 @include('./gallery/header')
 @include('./gallery/main')
-@include('./footer/footer')
+@include('./gallery/footer')
 <script src="{{ $prodPrefix }}js/gallery.js"></script>
 <script src="{{ $prodPrefix }}js/quote-form.js"></script>
 <script src="{{ $prodPrefix }}js/jquery-3.3.1.min.js"></script>
