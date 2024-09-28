@@ -2,8 +2,8 @@
     <h1>Gallery</h1> <p> Before&After</p>
 </div>
 <div class="gallery_box">
-    @foreach($pictures as $item)
-        <div id="gallery_item">
+    @foreach($pictures as $key => $item)
+        <div class="gallery_item" @if($key > 8) style="display: none" @endif>
             <img src="{{ $item['after'] }}" alt="After pic example">
             @if(isset($item['before']))
                 <img src="{{ $item['before'] }}" alt="Before pic example" style="display: none">
@@ -23,4 +23,7 @@
 {{--            <div class="gallery_box_item_slider_shortcut"></div>--}}
 {{--        </div>--}}
 {{--    </div>--}}
+</div>
+<div id="gallery_lm_btn_box">
+    <p id="gallery_lm_btn">Load More <i class="fa-regular fa-plus"></i></p>
 </div>
