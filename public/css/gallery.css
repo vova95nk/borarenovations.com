@@ -37,9 +37,17 @@
     height: 100%;
 }
 
-.slider_switch_button {
+.pic_buttons {
     position: relative;
     top: -300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.slider_switch_button, .full_size_button {
     width: max-content;
     font-size: 14px;
     color: white;
@@ -48,7 +56,7 @@
     padding: 5px;
 }
 
-.slider_switch_button:hover {
+.slider_switch_button:hover, .full_size_button:hover {
     cursor: pointer;
 }
 
@@ -141,4 +149,22 @@
 #gallery_lm_btn_box p:hover {
     cursor: pointer;
     font-weight: bold;
+}
+
+.full_size_gallery {
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.full_size_gallery_interactive {
+    width: 90%;
+    height: 90%;
+    background-color: wheat;
+    margin: 0 auto;
 }
