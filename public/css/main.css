@@ -85,9 +85,24 @@
 
 .google-map-container {
     width: 100%;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 450px;
+}
+
+.map_text {
+    width: 30%;
+    background-color: rgba(85, 93, 85, 0.8);
+    padding: 200px 20px;
+}
+
+.map_text p {
+    font-size: 20px;
+    font-style: oblique;
+    color: white !important;
 }
 
 .google-map {
-    width: 100% !important;
+    width: 70% !important;
 }
