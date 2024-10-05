@@ -1,3 +1,4 @@
+// Gallery | Before&After
 const itemsPerPage = 9
 
 let switchButtons = document.getElementsByClassName("slider_switch_button")
@@ -52,4 +53,38 @@ function getNextGalleryItems() {
             document.getElementById("gallery_lm_btn_box").style.display = 'none'
         }
     }
+}
+
+// Gallery | Full size
+let fullSizeButtons = document.getElementsByClassName("full_size_button")
+
+if (fullSizeButtons) {
+    for (let i = 0; i < fullSizeButtons.length; i++) {
+        let button = fullSizeButtons[i]
+
+        button.onclick = function () {
+            showFullSizeGalleryItem(button.parentElement.parentElement.children[3])
+        }
+    }
+}
+
+function showFullSizeGalleryItem(item) {
+    item.style.display = 'block'
+}
+
+// Gallery | Close full size
+let closeFullSizeButtons = document.getElementsByClassName("full_size_close_button")
+
+if (closeFullSizeButtons) {
+    for (let i = 0; i < closeFullSizeButtons.length; i++) {
+        let button = closeFullSizeButtons[i]
+
+        button.onclick = function () {
+            closeFullSizeGalleryItem(button.parentElement.parentElement.parentElement.parentElement)
+        }
+    }
+}
+
+function closeFullSizeGalleryItem(item) {
+    item.style.display = 'none'
 }
