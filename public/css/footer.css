@@ -8,6 +8,10 @@
     transition: right 300ms ease;
 }
 
+#go_to_quote i {
+    margin-right: 5px;
+}
+
 #go_to_quote:hover {
     right: 0px !important;
 }
