@@ -59,6 +59,10 @@
     width: 100%;
 }
 
+.username_inputs input {
+    width: 45% !important;
+}
+
 #user_first_name {
     margin-right: auto;
 }
