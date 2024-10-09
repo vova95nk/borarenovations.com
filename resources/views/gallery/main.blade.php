@@ -1,5 +1,6 @@
 <div class="gallery_header">
-    <h1>Gallery</h1> <p> Before&After</p>
+    <div class="gallery_header_main"><h1>Gallery</h1> <p> Before&After</p></div>
+    <p>To see over 2,000 pictures and videos of our work, follow us on <a href="https://www.facebook.com/BoraRenovations">Facebook</a> and <a href="https://instagram.com/bora_renovations">Instagram</a>.</p>
 </div>
 <div class="gallery_box">
     @foreach($pictures as $key => $item)
@@ -8,7 +9,7 @@
             @if(isset($item['before']))
                 <img src="{{ $item['before'] }}" alt="Before pic example" style="display: none">
                 <div class="pic_buttons">
-                    <div class="slider_switch_button" id="refinishing_switcher"><i class="fa-solid fa-repeat"></i> <span id="refinishing_switch_text">Before</span></div>
+                    <div class="slider_switch_button" id="refinishing_switcher"><i class="fa-solid fa-repeat"></i> <span id="refinishing_switch_text">After</span></div>
                     <div class="full_size_button" id="full_size_button"><i class="fa-solid fa-expand"></i></div>
                 </div>
             @endif
@@ -19,7 +20,7 @@
                         @if(isset($item['before']))
                             <img src="{{ $item['before'] }}" alt="Before pic example" style="display: none">
                             <div class="pic_buttons">
-                                <div class="slider_switch_button" id="refinishing_switcher"><i class="fa-solid fa-repeat"></i> <span id="refinishing_switch_text">Before</span></div>
+                                <div class="slider_switch_button" id="refinishing_switcher"><i class="fa-solid fa-repeat"></i> <span id="refinishing_switch_text">After</span></div>
                                 <div class="full_size_close_button"><i class="fa-solid fa-xmark"></i></div>
                             </div>
                         @endif

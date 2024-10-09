@@ -17,7 +17,7 @@
                             <span style="display: none" id="before_img">{{$service['img_path_before']}}</span>
                             <div class="switch_block">
                                 <div class="switch_img" id="switch_img_button">
-                                    <i class="fa-solid fa-repeat"></i><span id="switch_img_text">Before</span>
+                                    <i class="fa-solid fa-repeat"></i><span id="switch_img_text">After</span>
                                 </div>
                             </div>
                         </div>
@@ -31,7 +31,7 @@
                             <span style="display: none" id="before_img">{{$service['img_path_before']}}</span>
                             <div class="switch_block">
                                 <div class="switch_img" id="switch_img_button">
-                                    <i class="fa-solid fa-repeat"></i><span id="switch_img_text">Before</span>
+                                    <i class="fa-solid fa-repeat"></i><span id="switch_img_text">After</span>
                                 </div>
                             </div>
                         </div>

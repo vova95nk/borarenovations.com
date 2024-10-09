@@ -1,11 +1,27 @@
 .gallery_header {
     display: flex;
-    width: 50%;
+    width: 100%;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-between;
     flex-wrap: nowrap;
-    padding: 20px 0 0 50px;
+    padding: 20px 50px 0 50px;
     margin: 0 !important;
+}
+
+.gallery_header a {
+    color: #0a53be;
+    font-weight: bold;
+}
+
+.gallery_header a:hover {
+    color: black;
+}
+
+.gallery_header_main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: max-content;
 }
 
 .gallery_header h1 {

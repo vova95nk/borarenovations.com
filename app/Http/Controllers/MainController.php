@@ -30,7 +30,7 @@ class MainController extends Controller
             'aboutUsImgPath' => $pathPrefix . 'images/about-us/about-us.jpeg',
             'services' => [
                 [
-                    'name' => 'Cabinet Re-Finishing',
+                    'name' => 'Refinishing',
                     'info' => 'Tired of your cabinet color but your doors are in good shape? We’ll make your cabinets look brand new by applying any color you desire, installing new hardware, soft-closing hinges, and more.',
                     'type' => 'slider',
                     'img_path_before' => $pathPrefix . 'images/services-preview/refinishing-before.jpeg',
@@ -38,7 +38,7 @@ class MainController extends Controller
                     'num' => 'odd'
                 ],
                 [
-                    'name' => 'Cabinet Re-Dooring',
+                    'name' => 'Redooring',
                     'info' => 'Are your doors falling apart, or do you want to completely change the look of your cabinets? We’ll install new doors, refinish everything in any color you choose, and make your kitchen look brand new.',
                     'type' => 'slider',
                     'img_path_before' => $pathPrefix . 'images/services-preview/redooring-before.jpeg',

@@ -11,14 +11,14 @@ if (switchButtons) {
 
         button.onclick = function () {
             let btnState = button.children[1]
-            if (btnState.textContent === 'Before') {
+            if (btnState.textContent === 'After') {
                 beforeImg.style.display = 'none'
                 afterImg.style.display = 'block'
-                btnState.textContent = 'After'
+                btnState.textContent = 'Before'
             } else {
                 beforeImg.style.display = 'block'
                 afterImg.style.display = 'none'
-                btnState.textContent = 'Before'
+                btnState.textContent = 'After'
             }
         }
     }

@@ -1,5 +1,5 @@
 <div class="header">
-    <img src="{{ $prodPrefix }}images/test-bg-2.jpeg" alt="Main_picture" class="main-bg">
+    <img src="{{ $prodPrefix }}images/main.jpeg" alt="Main_picture" class="main-bg">
     <div class="header_social">
         <div>
             <i class="fa-solid fa-location-dot"></i>
