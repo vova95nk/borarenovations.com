@@ -100,6 +100,10 @@
     height: 450px;
 }
 
+.google-map-container img {
+    width: 100%;
+}
+
 .map_text {
     width: 30%;
     background-color: #3a5743;
@@ -110,8 +114,4 @@
     font-size: 20px;
     font-style: oblique;
     color: white !important;
-}
-
-.google-map {
-    width: 70% !important;
 }
