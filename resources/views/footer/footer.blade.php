@@ -17,7 +17,7 @@
             <a href="tel:+13022441338">
                 <i class="fa-solid fa-phone fa-lg"></i>
             </a>
-            <a href="mailto:borarernovations@gmail.com">
+            <a href="mailto:info.borarenovations@gmail.com">
                 <i class="fa-regular fa-envelope fa-lg"></i>
             </a>
             <a href="https://www.facebook.com/BoraRenovations">
