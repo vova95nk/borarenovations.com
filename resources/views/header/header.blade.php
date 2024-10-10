@@ -33,9 +33,6 @@
                                 <a href="#services/redooring" class="nav-link">Redooring</a>
                             </li>
                             <li>
-                                <a href="#services/installation" class="nav-link">Installation</a>
-                            </li>
-                            <li>
                                 <a href="#services/custom-finishes" class="nav-link">Custom Finishes</a>
                             </li>
                             <li>

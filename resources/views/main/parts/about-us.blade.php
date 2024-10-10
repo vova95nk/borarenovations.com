@@ -28,7 +28,7 @@
             <span class="mainPhoto">
                 <img src="{{$aboutUsImgPath}}" alt="About-us picture">
             </span>
-            <img class="dotsImg image-block" src="{{ $prodPrefix }}images/bg/haki-dots.svg">
+            <img class="dotsImg image-block" src="{{ $prodPrefix }}images/bg/green-dots.svg">
         </div>
     </div>
 </div>
