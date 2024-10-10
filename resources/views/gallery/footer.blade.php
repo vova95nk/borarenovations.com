@@ -4,11 +4,11 @@
             <img src="{{ $prodPrefix }}images/bora-text-logo.svg" alt="Short logo">
         </div>
         <div id="footer__links">
-            <a href="#">Home</a>
-            <a href="#about">About us</a>
-            <a href="#services">Our services</a>
+            <a href="/#">Home</a>
+            <a href="/#about">About us</a>
+            <a href="/#services">Our services</a>
             <a href="/gallery">Gallery</a>
-            <a href="#">Contact us</a>
+            <a href="/#">Contact us</a>
         </div>
         <div id="footer__social_icons">
             <a href="tel:+13022441338">

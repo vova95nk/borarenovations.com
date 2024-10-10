@@ -3,7 +3,7 @@
         <h1>Our Services</h1>
         <div class="part_header_line"></div>
     </div>
-    <div class="services_items">
+    <div class="services_items" id="services">
         @foreach($services as $service)
             <div class="service_item">
                 @if($service['num'] == 'odd')

@@ -27,16 +27,16 @@
                         <a href="#services" class="nav-link">Our Services</a>
                         <ul class="dropdown arrow-top">
                             <li>
-                                <a href="#services/refinishing" class="nav-link">Refinishing</a>
+                                <a href="#services" class="nav-link">Refinishing</a>
                             </li>
                             <li>
-                                <a href="#services/redooring" class="nav-link">Redooring</a>
+                                <a href="#services" class="nav-link">Redooring</a>
                             </li>
                             <li>
-                                <a href="#services/custom-finishes" class="nav-link">Custom Finishes</a>
+                                <a href="#services" class="nav-link">Custom Finishes</a>
                             </li>
                             <li>
-                                <a href="#services/more-updates" class="nav-link">More Updates</a>
+                                <a href="#services" class="nav-link">More Updates</a>
                             </li>
                         </ul>
                     </li>
