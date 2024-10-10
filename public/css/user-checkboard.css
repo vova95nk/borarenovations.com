@@ -30,12 +30,8 @@
     overflow: hidden;
 }
 
-.user-check-board table tr:nth-of-type(even) {
-    background-color: rgba(58, 87, 67, 0.5);
-}
-
 .user-check-board table tr:nth-of-type(odd) {
-    background-color: #3a5743;
+    background-color: #a2baa9;
 }
 
 .fa-check {
